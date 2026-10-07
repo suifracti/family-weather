@@ -1,0 +1,181 @@
+{
+  "bundle": {
+    "name": "acceptance-evidence.zip",
+    "bytes": 3074528,
+    "sha256": "117370d3ad6495763dc16eecc6e6dfa9f3fb580329e5077c5dee596b9f0e195c"
+  },
+  "files": [
+    {
+      "path": "acceptance/20261003/CHECKLIST.md",
+      "bytes": 31148,
+      "sha256": "d4dc8dd8a476d3db9f5b7ff1351e47bc33d3982369e5ddba1278c7f5b151b585"
+    },
+    {
+      "path": "acceptance/20261003/offline-fixtures.json",
+      "bytes": 6706,
+      "sha256": "45ff4df44cb29ef2a582c24b6bfe02b668e9d1de5c4b34617e21117789bdaf36"
+    },
+    {
+      "path": "release/phone-20261002/ACCEPTANCE.md",
+      "bytes": 11871,
+      "sha256": "de5db7d6e3c2fa011d4b8515e04320c38e8487f8bbc31341a6c19533ca6eea6a"
+    },
+    {
+      "path": "release/phone-prep-20261003/ACCEPTANCE.md",
+      "bytes": 11148,
+      "sha256": "74cff19e6185a8ddbea2b7f659c4a50c3e16da1de4a8e1191423530d7fda0b58"
+    },
+    {
+      "path": "release/phone-elder-20261003/ACCEPTANCE.md",
+      "bytes": 6322,
+      "sha256": "53c52df1db758b2fdd55c7c714ebade1db6bd0acd358efb76ba2608d5d422e4b"
+    },
+    {
+      "path": "release/phone-elder2-20261003/ACCEPTANCE.md",
+      "bytes": 6003,
+      "sha256": "65bd50fd5fdaa21ad15732b65939dd4d6db1334c7b2771c9a758922d026bb615"
+    },
+    {
+      "path": "release/phone-content1-20261003/ACCEPTANCE.md",
+      "bytes": 4154,
+      "sha256": "395d5d70ed30c9bb6b52cb71fc2976701cdddab23da6433fc419c6c5c3211662"
+    },
+    {
+      "path": "release/phone-sensevoice-20261004/HANDOFF.md",
+      "bytes": 2898,
+      "sha256": "5cef647bd3e5d68aaec525266bc2fd181a43ebe7172f31440cf44fc35760cd2b"
+    },
+    {
+      "path": "release/phone-sensevoice-20261004/ACCEPTANCE.md",
+      "bytes": 9738,
+      "sha256": "46eb16d0720383ea865053a361cb1eda6268bf45692146d3b3558b6674a924c0"
+    },
+    {
+      "path": "release/phone-sensevoice-20261004/CHANGES.md",
+      "bytes": 3821,
+      "sha256": "3df427e243797a4f28ebd4a1ae2661c3f50864ff54825610036b5834b208d94f"
+    },
+    {
+      "path": "release/phone-sensevoice-20261004/CONTENT_OUTPUT.md",
+      "bytes": 4312,
+      "sha256": "4cbd646677b928c44fe74b4a1b1cc3271bde053cc3be40f75ac5c2c91c2cf253"
+    },
+    {
+      "path": "release/phone-sensevoice-20261004/BUILD.json",
+      "bytes": 1391,
+      "sha256": "3e01556d12bf115ca4e2ea58e8c4a367db65db3aa819259908040f81a4f3a599"
+    },
+    {
+      "path": "release/phone-sensevoice-20261004/sv3-artifact.json",
+      "bytes": 174843,
+      "sha256": "3b878fab5793b4a143782cd8836c395e6ffa845ea4eb667aa561888530b6375c"
+    },
+    {
+      "path": "release/phone-sensevoice-20261004/sv4-artifact.json",
+      "bytes": 175105,
+      "sha256": "81072251a60ec024c331f8ada8d7be99aeeb5f1f343ca21c3b6210f816a8fe7f"
+    },
+    {
+      "path": "release/phone-sensevoice-20261004/sv4-source-audit.json",
+      "bytes": 2281,
+      "sha256": "ad1a1c494f7b782378dcdfee4c2088a7bb2ffe2eb9cc70fcd393ae8c05950fbd"
+    },
+    {
+      "path": "release/phone-sensevoice-20261004/sv4-output.txt",
+      "bytes": 5862,
+      "sha256": "af745fce3fe38c9712cc2c0ca382a3dd8429b37a22fba800b4974258c828975a"
+    },
+    {
+      "path": "release/phone-sensevoice-20261004/sv3-metrics.json",
+      "bytes": 152128,
+      "sha256": "a1bdfcb066e4cdf897cb24472c0fd7a55c5a78a59377567daa86c83ecffd1f5e"
+    },
+    {
+      "path": "release/phone-sensevoice-20261004/sv4-restored-logcat.txt",
+      "bytes": 11551,
+      "sha256": "2aa5a6dcdb1a37d7d006aa869124385e7e0deafda3e38004e2054973ab24817f"
+    },
+    {
+      "path": "release/phone-sensevoice-20261004/sv4-final-logcat.txt",
+      "bytes": 33990,
+      "sha256": "1d1f9588c91b06149b84762658dfabb66e28e553b6aacfe8bf2609a20e487a0f"
+    },
+    {
+      "path": "release/phone-sensevoice-20261004/sv4-ready-home.json",
+      "bytes": 3377,
+      "sha256": "1e91f50e12c701054b2e914e9decc193187643fc76d1a0cf81cac8ea8c534615"
+    },
+    {
+      "path": "release/phone-sensevoice-20261004/sv4-summary.json",
+      "bytes": 4821,
+      "sha256": "1a182f1bcd11aebc9a5c845720fdf8f762d5b207f4a473ad885ddd7a8e06979f"
+    },
+    {
+      "path": "release/phone-sensevoice-20261004/sv4-replay.json",
+      "bytes": 4821,
+      "sha256": "8aff99d4c8c01a73346a3c8037e4fbea15af170a22f0962585ce8fefc5d30961"
+    },
+    {
+      "path": "release/phone-sensevoice-20261004/cancel-metrics.json",
+      "bytes": 46308,
+      "sha256": "e0eaeace948915e42527868e5fcc4d71b56d0f0620ebc01c4d87210746b63b62"
+    },
+    {
+      "path": "release/phone-sensevoice-20261004/cancel-full-logcat.txt",
+      "bytes": 17628,
+      "sha256": "4f12561417a79f5a161692b65203165f4a61660626135b5d04918204bd5b653e"
+    },
+    {
+      "path": "release/phone-sensevoice-20261004/shared-task-logcat.txt",
+      "bytes": 45484,
+      "sha256": "115f6a7b7cf3c67295afc0de89ec5ee65cf83c64ec7068507a94998eb81d3f7f"
+    },
+    {
+      "path": "acceptance/20261003/evidence-elder1/narrow-large-preparation.png",
+      "bytes": 206136,
+      "sha256": "0caebec963aae71383f1c1ad20649f98bf76bf29533fe97d70c774ead7b2e048"
+    },
+    {
+      "path": "acceptance/20261003/evidence-elder1/player-narrow-large-scrolled.png",
+      "bytes": 903577,
+      "sha256": "8b2924150f62665312ca761bcbb307b59be1b84192053b4433df0c0c09348b51"
+    },
+    {
+      "path": "acceptance/20261003/evidence-elder1/hourly-narrow-large-values.png",
+      "bytes": 245260,
+      "sha256": "a612a70b38e8eeecfcec1c912cf2b25bd089c81240a61e1cdd5afb4487028475"
+    },
+    {
+      "path": "acceptance/20261003/evidence-elder2/home-after-exo-back.png",
+      "bytes": 251530,
+      "sha256": "ea53a394c9b50bc515baf1ae09efe212f41ed7ed52ea4260b2342a5c3953e1ed"
+    },
+    {
+      "path": "acceptance/20261003/evidence-elder2/home-after-toolbar-back.png",
+      "bytes": 251075,
+      "sha256": "c6cd8ce470a1b7cc9d5cce19602e9d9e3532235aad1db600e08dc375cadb055e"
+    },
+    {
+      "path": "acceptance/20261003/evidence-elder2/system-back-exit.png",
+      "bytes": 1159772,
+      "sha256": "6255715b72e83733aea72b5a86178c03b77da29fd861702d904678eb52f81630"
+    }
+  ],
+  "status": "Historical raw evidence, no new execution. Contains original two fault-injection refusals unchanged; private settings/databases/cache seeds, APKs and programme media omitted.",
+  "originalRoot": "<private-Windows-workspace>",
+  "windowsOnlyOptional": [
+    {
+      "path": "release/phone-sensevoice-20261004/jianming-weather-6.2.2-r6244-sv4-arm64-debug.apk",
+      "bytes": 271297387,
+      "sha256": "85cd4e7e9d890761e181bf5479dafe5aa96904f9b355cdc291f769fbe5a208eb",
+      "purpose": "Optional exact old candidate comparison; not required for Mac build. Copy privately from Windows if needed."
+    },
+    {
+      "path": "app/src/debug/assets/asr-test/silence.mp4",
+      "bytes": 4323,
+      "sha256": "69a0c6c068a036a184e5aeb60befc7b091832fe903946e35156298b47d2c772c",
+      "purpose": "Optional historical debug no-speech diagnostic input; not used by normal UI or Mac minimum verification. Copy privately to same relative checkout path if specifically needed."
+    }
+  ],
+  "privacyNote": "Public metadata copy: original root redacted; original index preserved privately."
+}

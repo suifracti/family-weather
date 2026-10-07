@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SubtitleManifestV1",
+  "description": "Schema for Weather Video Pre-generated Subtitle Manifest",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "program",
+    "episodeDate",
+    "sourceVideoUrl",
+    "sourceVideoSha256",
+    "durationMs",
+    "subtitleOrigin",
+    "extractionMethod",
+    "asrModel",
+    "generatedAt",
+    "vttFile",
+    "vttSha256",
+    "cueCount"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1,
+      "description": "Manifest schema version, fixed at 1"
+    },
+    "program": {
+      "type": "string",
+      "const": "EVENING_WEATHER",
+      "description": "Broadcast weather video program identifier"
+    },
+    "episodeDate": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "Broadcast episode calendar date in YYYY-MM-DD"
+    },
+    "sourceVideoUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "Official video URL from origin producer or broadcaster"
+    },
+    "sourceVideoSha256": {
+      "type": "string",
+      "pattern": "^[A-Fa-f0-9]{64}$",
+      "description": "SHA-256 hash of the canonical source video MP4"
+    },
+    "durationMs": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Total duration of the media in milliseconds"
+    },
+    "subtitleOrigin": {
+      "type": "string",
+      "const": "AI_ASR_GENERATED",
+      "description": "Subtitle provenance authority, strictly AI_ASR_GENERATED"
+    },
+    "extractionMethod": {
+      "type": "string",
+      "const": "AUTOMATED_ASR_EXTRACTED",
+      "description": "Automated ASR extraction method"
+    },
+    "asrModel": {
+      "type": "string",
+      "description": "Exact ASR model identifier and version used"
+    },
+    "generatedAt": {
+      "type": "string",
+      "description": "Generation timestamp in ISO-8601 UTC format"
+    },
+    "vttFile": {
+      "type": "string",
+      "const": "subtitle.vtt",
+      "description": "Relative filename of the WebVTT subtitle track"
+    },
+    "vttSha256": {
+      "type": "string",
+      "pattern": "^[A-Fa-f0-9]{64}$",
+      "description": "SHA-256 hash of the generated WebVTT file"
+    },
+    "cueCount": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Total number of timestamped subtitle cues"
+    },
+    "episodeSummary": {
+      "type": "object",
+      "required": [
+        "program",
+        "episodeDate",
+        "sourceVideoUrl",
+        "sourceVideoSha256",
+        "subtitleVttSha256",
+        "summaryMethod",
+        "items"
+      ],
+      "properties": {
+        "program": { "type": "string", "const": "EVENING_WEATHER" },
+        "episodeDate": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "sourceVideoUrl": { "type": "string", "format": "uri" },
+        "sourceVideoSha256": { "type": "string", "pattern": "^[A-Fa-f0-9]{64}$" },
+        "subtitleVttSha256": { "type": "string", "pattern": "^[A-Fa-f0-9]{64}$" },
+        "summaryMethod": { "type": "string", "const": "HUMAN_REVIEWED_FROM_AI_ASR" },
+        "items": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "required": ["startMs", "endMs", "text"],
+            "properties": {
+              "startMs": { "type": "integer", "minimum": 0 },
+              "endMs": { "type": "integer", "minimum": 1 },
+              "text": { "type": "string", "minLength": 1 }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSurface">
+
+    <LinearLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <org.breezyweather.ui.common.widgets.insets.FitSystemBarAppBarLayout
+            android:id="@+id/appBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/BreezyWeatherTheme.AppBarTheme">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                style="@style/BreezyWeatherTheme.ToolbarTheme"
+                app:navigationIcon="@drawable/ic_toolbar_back"
+                app:navigationContentDescription="@string/action_back" />
+
+        </org.breezyweather.ui.common.widgets.insets.FitSystemBarAppBarLayout>
+
+        <TextView
+            android:id="@+id/tvEpisodeDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center_vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="8dp"
+            android:textSize="18sp"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:visibility="gone" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            app:trackThickness="3dp" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/playbackErrorContainer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fillViewport="true"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+            <TextView
+                android:id="@+id/tvPlaybackError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="天气预报仍可查看；本期暂时播放不了，请检查网络后重新播放，或返回首页"
+                android:textSize="20sp"
+                android:textColor="?attr/colorOnSurface" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnRetryPlayback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:minHeight="56dp"
+                android:singleLine="false"
+                android:textSize="18sp"
+                android:paddingVertical="12dp"
+                android:text="重新播放" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnReturnFromPlaybackError"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:minHeight="56dp"
+                android:singleLine="false"
+                android:textSize="18sp"
+                android:paddingVertical="12dp"
+                android:text="返回首页查看天气" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <FrameLayout
+            android:id="@+id/playerContainer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <androidx.media3.ui.PlayerView
+                android:id="@+id/playerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                app:use_controller="true"
+                app:show_timeout="4000"
+                app:resize_mode="fit" />
+
+        </FrameLayout>
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="gone" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/infoContainer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="?attr/colorSurface"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="12dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnPlayerPlayback"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="56dp"
+                    android:paddingVertical="12dp"
+                    android:singleLine="false"
+                    android:textSize="18sp"
+                    android:text="暂停播放" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/tvSubtitleToggle"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:minHeight="56dp"
+                    android:paddingVertical="12dp"
+                    android:singleLine="false"
+                    android:text="字幕正在准备，视频可继续观看"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnPlayerFullscreen"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:minHeight="56dp"
+                    android:paddingVertical="12dp"
+                    android:singleLine="false"
+                    android:textSize="18sp"
+                    android:text="全屏观看" />
+
+                <TextView
+                    android:id="@+id/tvBriefTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="?attr/colorOnSurfaceVariant"
+                    android:text="要点回看" />
+
+                <TextView
+                    android:id="@+id/tvSummarySource"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="根据本期自动字幕整理"
+                    android:textColor="?attr/colorOnSurfaceVariant"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tvBriefContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:textSize="18sp"
+                    android:minHeight="56dp"
+                    android:gravity="center_vertical"
+                    android:lineSpacingExtra="3dp"
+                    android:textColor="?attr/colorOnSurface"
+                    android:text="字幕和回看要点尚未准备，视频可继续观看" />
+
+                <LinearLayout
+                    android:id="@+id/summaryRows"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fullscreenContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:visibility="gone" />
+
+</FrameLayout>

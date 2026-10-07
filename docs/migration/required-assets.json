@@ -1,0 +1,89 @@
+{
+  "schema": 1,
+  "sourceHead": "2de6b4d50169a216c84c579ecfec4ed4aa1c1677",
+  "sourceBranch": "candidate/sensevoice-20261004",
+  "bundle": {
+    "name": "required-assets.zip",
+    "bytes": 342175933,
+    "sha256": "4400c771d9be73e2835b53f50bbc540b799d7023fb20790376bf5fac866f98c5"
+  },
+  "sensevoiceArchive": {
+    "bytes": 163002883,
+    "sha256": "7d1efa2138a65b0b488df37f8b89e3d91a60676e416f515b952358d83dfd347e",
+    "modelMember": "sherpa-onnx-sense-voice-zh-en-ja-ko-yue-int8-2024-07-17/model.int8.onnx",
+    "tokensMember": "sherpa-onnx-sense-voice-zh-en-ja-ko-yue-int8-2024-07-17/tokens.txt"
+  },
+  "files": [
+    {
+      "path": "app/libs/sherpa-onnx-1.13.8.aar",
+      "purpose": "SenseVoice Android runtime",
+      "bytes": 50129134,
+      "sha256": "633c24321e06b1fe79feafa03ea16cbc0f8a286641e2da3559bac91bdb13bd96",
+      "originalSource": "https://github.com/k2-fsa/sherpa-onnx/releases/download/v1.13.8/sherpa-onnx-1.13.8.aar"
+    },
+    {
+      "path": "app/libs/vosk-android-0.3.75.aar",
+      "purpose": "Explicit Vosk fallback runtime",
+      "bytes": 13472638,
+      "sha256": "ab2f8b91ac8051561aa325546b35fed9a68b36b8121bac5c6fb927525c4adfad",
+      "originalSource": "https://repo.maven.apache.org/maven2/com/alphacephei/vosk-android/0.3.75/vosk-android-0.3.75.aar"
+    },
+    {
+      "path": "app/libs/jna-5.18.1.aar",
+      "purpose": "Vosk JNA Android bridge",
+      "bytes": 522677,
+      "sha256": "7f053e3ec99e14dd71259c82c1c8a02738d64a13c31226b2acc170f3060951e0",
+      "originalSource": "https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.18.1/jna-5.18.1.aar"
+    },
+    {
+      "path": "app/src/main/assets/asr/vosk-model-small-cn-0.22.zip",
+      "purpose": "Explicit Vosk fallback Chinese model",
+      "bytes": 43898754,
+      "sha256": "3af8b0e7e0f835ae9d414ce5df580237a3cfb08d586c9fbbb0f7ff29ad5b14ba",
+      "originalSource": "https://alphacephei.com/vosk/models/vosk-model-small-cn-0.22.zip"
+    },
+    {
+      "path": "app/src/main/assets/sensevoice/model.int8.onnx",
+      "purpose": "Default SenseVoice int8 model",
+      "bytes": 239233841,
+      "sha256": "c71f0ce00bec95b07744e116345e33d8cbbe08cef896382cf907bf4b51a2cd51",
+      "originalSource": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-int8-2024-07-17.tar.bz2"
+    },
+    {
+      "path": "app/src/main/assets/sensevoice/tokens.txt",
+      "purpose": "Matching SenseVoice vocabulary",
+      "bytes": 315894,
+      "sha256": "f449eb28dc567533d7fa59be34e2abca8784f771850c78a47fb731a31429a1dc",
+      "originalSource": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-int8-2024-07-17.tar.bz2"
+    },
+    {
+      "path": "app/src/main/assets/sensevoice/licenses/FunASR-MODEL_LICENSE.txt",
+      "purpose": "Model/runtime license and attribution; also tracked",
+      "bytes": 5306,
+      "sha256": "7dba975a2069691db4992b0592d70828b330d2f8a30a71450f4e152a554e84f8",
+      "originalSource": "Windows preserved original / companion bundle"
+    },
+    {
+      "path": "app/src/main/assets/sensevoice/licenses/NOTICE.txt",
+      "purpose": "Model/runtime license and attribution; also tracked",
+      "bytes": 1016,
+      "sha256": "f49dccb30ca168eebee2aaa543bf6663d72cc662b94fc924e2260e90a7bf63ad",
+      "originalSource": "Windows preserved original / companion bundle"
+    },
+    {
+      "path": "app/src/main/assets/sensevoice/licenses/onnxruntime-LICENSE.txt",
+      "purpose": "Model/runtime license and attribution; also tracked",
+      "bytes": 1073,
+      "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c",
+      "originalSource": "Windows preserved original / companion bundle"
+    },
+    {
+      "path": "app/src/main/assets/sensevoice/licenses/sherpa-onnx-LICENSE.txt",
+      "purpose": "Model/runtime license and attribution; also tracked",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "originalSource": "Windows preserved original / companion bundle"
+    }
+  ],
+  "acquisition": "Transfer required-assets.zip privately from Windows, verify bundle hash, then tools/migration/restore_assets.py --bundle PATH. Source URLs are recorded original acquisition locations; current availability is not promised. For model archive extract only the two listed members, validate extracted hashes, retain licenses. Never substitute a newer model or runtime silently."
+}

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.ExtraLarge"
+    app:strokeWidth="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/large_margin">
+
+        <TextView
+            android:id="@+id/orchard_temperature_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:accessibilityHeading="true"
+            android:text="果园温度趋势"
+            android:textAppearance="?attr/textAppearanceTitleMedium"
+            android:textColor="?attr/colorSurfaceInverse" />
+
+        <TextView
+            android:id="@+id/orchard_temperature_place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="工作地 / 果园"
+            android:textAppearance="?attr/textAppearanceBodyLarge"
+            android:textColor="?attr/colorOnSurfaceVariant" />
+
+        <TextView
+            android:id="@+id/orchard_temperature_tomorrow_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/normal_margin"
+            android:textAppearance="?attr/textAppearanceTitleLarge"
+            android:textColor="?attr/colorSurfaceInverse"
+            android:text="明日" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/orchard_temperature_high_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="最高温"
+                    android:textAppearance="?attr/textAppearanceTitleSmall"
+                    android:textColor="?attr/colorOnSurfaceVariant" />
+
+                <TextView
+                    android:id="@+id/orchard_temperature_high_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="资料不足"
+                    android:textAppearance="?attr/textAppearanceHeadlineSmall"
+                    android:textColor="?attr/colorSurfaceInverse" />
+
+                <TextView
+                    android:id="@+id/orchard_temperature_high_change"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="较今日变化资料不足"
+                    android:textAppearance="?attr/textAppearanceBodyLarge"
+                    android:textColor="?attr/colorOnSurfaceVariant" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/orchard_temperature_low_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="最低温"
+                    android:textAppearance="?attr/textAppearanceTitleSmall"
+                    android:textColor="?attr/colorOnSurfaceVariant" />
+
+                <TextView
+                    android:id="@+id/orchard_temperature_low_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="资料不足"
+                    android:textAppearance="?attr/textAppearanceHeadlineSmall"
+                    android:textColor="?attr/colorSurfaceInverse" />
+
+                <TextView
+                    android:id="@+id/orchard_temperature_low_change"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="较今日变化资料不足"
+                    android:textAppearance="?attr/textAppearanceBodyLarge"
+                    android:textColor="?attr/colorOnSurfaceVariant" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/orchard_temperature_empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="果园暂无可用温度预报"
+            android:textAppearance="?attr/textAppearanceBodyLarge"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/orchard_temperature_trend_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/normal_margin"
+            android:text="未来温度趋势 · 点按日期查看逐小时详情"
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:textColor="?attr/colorOnSurfaceVariant" />
+
+        <org.breezyweather.ui.common.widgets.trend.TrendRecyclerView
+            android:id="@+id/orchard_temperature_trend"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/daily_trend_item_height"
+            android:layout_marginTop="@dimen/small_margin" />
+
+        <TextView
+            android:id="@+id/orchard_temperature_source"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="来源：未知"
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:textColor="?attr/colorOnSurfaceVariant" />
+
+        <TextView
+            android:id="@+id/orchard_temperature_updated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="预报更新时间：未知"
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:textColor="?attr/colorOnSurfaceVariant" />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

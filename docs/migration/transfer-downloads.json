@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-05",
+  "storage": "Private owner-held recovery materials; access index omitted from version control",
+  "access": "Owner-only. Sign in on Mac with the same Google account used for this connected Drive. No public/domain sharing grants created.",
+  "originalBundle": {
+    "name": "required-assets.zip",
+    "bytes": 342175933,
+    "sha256": "4400c771d9be73e2835b53f50bbc540b799d7023fb20790376bf5fac866f98c5"
+  },
+  "parts": [
+    {
+      "name": "required-assets.zip.part01",
+      "bytes": 90000000,
+      "sha256": "6d4a5894c22a3e1b6fc6c58abc1c3777936b9b317599f24ce43c9e5c84a653a0"
+    },
+    {
+      "name": "required-assets.zip.part02",
+      "bytes": 90000000,
+      "sha256": "9e5611f66602108a7544b08985d2dfacba94975eadaccccd5a3fd2975affafde"
+    },
+    {
+      "name": "required-assets.zip.part03",
+      "bytes": 90000000,
+      "sha256": "fba38df8723d42861edf50f4ede6adb326d4fdf1475fad9789875dfdd3469082"
+    },
+    {
+      "name": "required-assets.zip.part04",
+      "bytes": 72175933,
+      "sha256": "2303df0b4423b6b1fe354e169b55bd6418ab433613973ae0e0f173aa4c16cab2"
+    }
+  ],
+  "evidence": {
+    "name": "breezy-weather-mac-20261005-acceptance-evidence.zip",
+    "bytes": 3074528,
+    "sha256": "117370d3ad6495763dc16eecc6e6dfa9f3fb580329e5077c5dee596b9f0e195c"
+  },
+  "verification": "Historical file checksums retained; private access identifiers removed on 2026-10-08. No new transfer or execution.",
+  "migrationStatus": "Historical transfer index, not a current migration acceptance result"
+}

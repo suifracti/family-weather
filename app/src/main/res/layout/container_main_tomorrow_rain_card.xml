@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This file is part of Breezy Weather.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_tomorrow_rain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/normal_margin"
+    android:layout_marginVertical="@dimen/small_margin"
+    android:background="?attr/colorSurface"
+    android:orientation="vertical"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp">
+
+    <TextView
+        android:id="@+id/tomorrow_location_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceTitleMedium"
+        android:textColor="?attr/colorOnSurface"
+        android:textStyle="bold"
+        tools:text="工作地 / 果园" />
+
+    <LinearLayout
+        android:id="@+id/tomorrow_day_toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/tomorrow_today_button"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="56dp"
+            android:singleLine="false"
+            android:text="今天"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Medium" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/tomorrow_tomorrow_button"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:minHeight="56dp"
+            android:singleLine="false"
+            android:text="明天"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tomorrow_date_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            tools:text="明天 2026-09-24" />
+
+        <TextView
+            android:id="@+id/tomorrow_update_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textAppearance="?attr/textAppearanceBodySmall"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            tools:text="读取于 2026-09-23 16:26" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="?attr/colorOutline" />
+
+    <TextView
+        android:id="@+id/tomorrow_probability_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="逐小时预报"
+        android:textAppearance="?attr/textAppearanceTitleSmall"
+        android:textColor="?attr/colorOnSurface"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="“未提供”表示该项暂无数据，不代表没有雨"
+        android:textSize="14sp"
+        android:textColor="?attr/colorOnSurfaceVariant" />
+
+    <LinearLayout
+        android:id="@+id/tomorrow_forecast_columns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal"
+        android:paddingEnd="68dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="预报来源"
+            android:textAppearance="?attr/textAppearanceBodySmall"
+            android:textColor="?attr/colorOnSurfaceVariant" />
+
+        <TextView
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="降水概率\n(%)"
+            android:textAppearance="?attr/textAppearanceBodySmall"
+            android:textColor="?attr/colorOnSurfaceVariant" />
+
+        <TextView
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="降水量(毫米)\n天气"
+            android:textAppearance="?attr/textAppearanceBodySmall"
+            android:textColor="?attr/colorOnSurfaceVariant" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_marginTop="2dp">
+
+        <org.breezyweather.ui.main.adapters.main.holder.HomeHourlyScrollView
+            android:id="@+id/tomorrow_hourly_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:fillViewport="false"
+            android:paddingEnd="68dp"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:id="@+id/tomorrow_slot_row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </org.breezyweather.ui.main.adapters.main.holder.HomeHourlyScrollView>
+
+        <org.breezyweather.ui.main.adapters.main.holder.HourLocatorView
+            android:id="@+id/tomorrow_hour_locator"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_marginEnd="12dp" />
+    </FrameLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_retry_forecast"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:minHeight="56dp"
+        android:singleLine="false"
+        android:paddingHorizontal="0dp"
+        android:text="重试获取预报"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Medium" />
+
+</LinearLayout>

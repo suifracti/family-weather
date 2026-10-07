@@ -1,0 +1,10 @@
+# Copy to repository-root local.properties on Mac; this example contains no credentials.
+# Replace the SDK path with your own absolute path (or let Android Studio generate it).
+sdk.dir=/Users/YOUR_USER/Library/Android/sdk
+
+# Optional dedicated QWeather configuration; leave empty for the current no-key workflow.
+qweather.api_host=
+qweather.api_key=
+
+# Historical hosted-subtitle workflow only; current phone-local preparation needs no server.
+breezy.subtitle_base_url=

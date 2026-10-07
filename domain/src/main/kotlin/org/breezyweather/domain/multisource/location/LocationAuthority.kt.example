@@ -1,0 +1,81 @@
+// Private location configuration template. This file is not compiled as-is.
+// Copy to LocationAuthority.kt, replace all PRIVATE_* coordinate placeholders
+// with your own location values, and keep the resulting file out of Git.
+// Missing coordinates must not be replaced with 0 or another city's data.
+/*
+ * This file is part of Breezy Weather.
+ */
+
+package org.breezyweather.domain.multisource.location
+
+/**
+ * Functional roles for weather locations in the family elder agricultural application.
+ */
+enum class LocationRole {
+    /**
+     * Primary target location for agricultural operations (orchard/fertilization).
+     * All "明天会不会下雨？" agricultural main conclusions MUST use this location.
+     */
+    AGRICULTURAL_PRIMARY,
+
+    /**
+     * County town / administrative center reference location.
+     * Reference only. Prohibited from overwriting worksite evidence.
+     */
+    COUNTY_REFERENCE,
+
+    /**
+     * General geographical location without specialized agricultural authority.
+     */
+    GENERAL
+}
+
+/**
+ * Explicit target location entity binding role, coordinates, and canonical identity.
+ */
+data class TargetLocation(
+    val role: LocationRole,
+    val displayName: String,
+    val latitude: Double,
+    val longitude: Double,
+    val timeZoneId: String = "Asia/Shanghai"
+) {
+    val canonicalLocationId: String
+        get() = WeatherCoordinateSerializer.toCanonicalLocationId(latitude, longitude)
+}
+
+/**
+ * Central authority governing location hierarchy and role assignment.
+ */
+object LocationAuthority {
+
+    /**
+     * Worksite / Orchard (工作地 / 果园)
+     */
+    val WORKSITE = TargetLocation(
+        role = LocationRole.AGRICULTURAL_PRIMARY,
+        displayName = "工作地 / 果园",
+        latitude = PRIVATE_ORCHARD_LATITUDE,
+        longitude = PRIVATE_ORCHARD_LONGITUDE,
+        timeZoneId = "Asia/Shanghai"
+    )
+
+    /**
+     * County reference location (县城参考)
+     */
+    val COUNTY_TOWN = TargetLocation(
+        role = LocationRole.COUNTY_REFERENCE,
+        displayName = "县城参考",
+        latitude = PRIVATE_REFERENCE_LATITUDE,
+        longitude = PRIVATE_REFERENCE_LONGITUDE,
+        timeZoneId = "Asia/Shanghai"
+    )
+
+    fun getAgriculturalPrimary(): TargetLocation = WORKSITE
+
+    fun getCountyReference(): TargetLocation = COUNTY_TOWN
+
+    fun isAgriculturalPrimary(latitude: Double, longitude: Double): Boolean {
+        return WeatherCoordinateSerializer.toCanonicalLocationId(latitude, longitude) == WORKSITE.canonicalLocationId
+    }
+}

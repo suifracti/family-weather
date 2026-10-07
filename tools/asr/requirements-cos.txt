@@ -1,0 +1,4 @@
+# Optional dependency used only by --publish-target cos.
+# Official Tencent COS Python SDK source:
+# https://github.com/tencentyun/cos-python-sdk-v5
+cos-python-sdk-v5==1.9.44

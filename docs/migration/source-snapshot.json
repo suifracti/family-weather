@@ -1,0 +1,292 @@
+[
+  {
+    "path": "app/build.gradle.kts",
+    "bytes": 22185,
+    "sha256": "aa2eaa2d1c763a775b3cba668b58d0ec46b30e673b53b2e837a5ea36df9ad915"
+  },
+  {
+    "path": "app/proguard-rules.pro",
+    "bytes": 2332,
+    "sha256": "d33e3f3f618a606fb0049a74c0ecc1199475f8ed3fb368bbb48d862438cf5497"
+  },
+  {
+    "path": "app/src/debug/AndroidManifest.xml",
+    "bytes": 905,
+    "sha256": "41effa993a1dd63a4c119b77c1a7af86aacf100c0a8eecc6b6b5cab3fbc5de04"
+  },
+  {
+    "path": "app/src/debug/kotlin/org/breezyweather/debug/ContentAudioCheckActivity.kt",
+    "bytes": 8581,
+    "sha256": "b7373ce2f125f88b7db585abeedebdee6ce0750d8e582efa777a2c09eee38739"
+  },
+  {
+    "path": "app/src/main/assets/sensevoice/licenses/FunASR-MODEL_LICENSE.txt",
+    "bytes": 5306,
+    "sha256": "7dba975a2069691db4992b0592d70828b330d2f8a30a71450f4e152a554e84f8"
+  },
+  {
+    "path": "app/src/main/assets/sensevoice/licenses/NOTICE.txt",
+    "bytes": 1016,
+    "sha256": "f49dccb30ca168eebee2aaa543bf6663d72cc662b94fc924e2260e90a7bf63ad"
+  },
+  {
+    "path": "app/src/main/assets/sensevoice/licenses/onnxruntime-LICENSE.txt",
+    "bytes": 1073,
+    "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+  },
+  {
+    "path": "app/src/main/assets/sensevoice/licenses/sherpa-onnx-LICENSE.txt",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/BreezyWeather.kt",
+    "bytes": 9718,
+    "sha256": "42e5bf128997b0515ce68a4265e02b4ed777885377bb0c76bce6a875be54d0b8"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/background/weather/EpisodeCacheCleanupWorker.kt",
+    "bytes": 2244,
+    "sha256": "08ddb84863e8f67c3c24941603a80a7cddb4d0ea1be6f2c9b44e4904c7fde0ae"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/cctv/CctvEpisode.kt",
+    "bytes": 1942,
+    "sha256": "505bfbd4ebe5a55dad636641efc10e309e84c967250d089d5f52ebe708bed4a6"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/cctv/CctvUrlValidator.kt",
+    "bytes": 2753,
+    "sha256": "7a5b004c3b2880fcd408fba14b4b5a61bb8b7ae57a48b0e5406cdb478c0762cb"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/cctv/CctvWeatherService.kt",
+    "bytes": 8596,
+    "sha256": "a7ae10448021c8961e04a8d063f1fb5075f8c4c8b3970a2cf279d6653fe382ff"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/cctv/ChinaWeatherVideoService.kt",
+    "bytes": 15206,
+    "sha256": "c5eb4d5e7b02c4c8249e5df5ee1ba40782de25ca2e3d55cc32d712a6908b77ca"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/multisource/hourly/adapter/BreezyChinaHourlyAdapter.kt",
+    "bytes": 3717,
+    "sha256": "cfc698c012cec631b96e5b8105d08c4f280f07d12a794e7f5859fb0b00689285"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/multisource/hourly/adapter/OpenMeteoHourlyAdapter.kt",
+    "bytes": 12375,
+    "sha256": "c6a8bf72f42db6049903acfd5019811b9db7c9f8225be940d74505dd56c221c9"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/multisource/hourly/engine/TomorrowHourlyRainEngine.kt",
+    "bytes": 36436,
+    "sha256": "65fd7d66edc283694dc248bd8254824ec77838a6c728f1dcf70ecd913157c440"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/multisource/hourly/presentation/TomorrowRainPresentation.kt",
+    "bytes": 41911,
+    "sha256": "c38571402f82d68445a33d03388a0418e31fc6a54b227869733f306b7ab7a61f"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/multisource/hourly/service/TomorrowRainEvidenceService.kt",
+    "bytes": 13423,
+    "sha256": "3934376b94e186497d6dc3b7fa5bb368fa498bf7adbce7558c6f0d2336efe9aa"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/multisource/hourly/service/TomorrowRainSnapshotStore.kt",
+    "bytes": 10926,
+    "sha256": "597ee6de165841f8b71bde6d16084229f1363b4b6a8c3074df3df72587df0a60"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/subtitle/gate/EpisodeSummaryGate.kt",
+    "bytes": 7344,
+    "sha256": "9dfbc3a9ad66f3963cef5ab27d074c1f148322a663102d1bc0ad1f388225fb55"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/subtitle/local/AndroidVideoTranscriber.kt",
+    "bytes": 10476,
+    "sha256": "ac075ec8a0342d61e743ec385a71e8824b18825cdf6f5faa2bb07442c10e5493"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/subtitle/local/AsrBackend.kt",
+    "bytes": 818,
+    "sha256": "e9308e9afd0a6bb19f41e663c86d54cc9b080e0548f262b5d26dacf3d69c83ba"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/subtitle/local/EpisodePreparationCache.kt",
+    "bytes": 13898,
+    "sha256": "dceed32cb81ea941503b18718d0652b30a7a26d1ea124c75ce9d081ab8acd2f2"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/subtitle/local/EpisodePreparationCoordinator.kt",
+    "bytes": 19373,
+    "sha256": "11aa25e00558b84a84c2c0456947f495057b7bb3277f65b1862579e0acb79558"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/subtitle/local/LLAMA_RUNTIME_LICENSE.txt",
+    "bytes": 1078,
+    "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/subtitle/local/LocalEpisodeArtifacts.kt",
+    "bytes": 19189,
+    "sha256": "3096573dadc38dec1cbddc643d41978eb8f78832fe8af03635a878ceda956d98"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/subtitle/local/LocalGenerativeSummary.kt",
+    "bytes": 9404,
+    "sha256": "2ffa159c4acccf8c243c97e454671e93e2e9d0646eb87d86f10793723cf8a01d"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/subtitle/local/LocalSummaryQuality.kt",
+    "bytes": 4533,
+    "sha256": "52ff72e61df52b8ee03ab3d8deb841866f01443c33827004a4b9b8bfd6348281"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/subtitle/local/LocalWeatherSummary.kt",
+    "bytes": 5078,
+    "sha256": "967cedc5cd71085875f26bfc2eca33c232f8f4d989ac7301decc9662eb14225a"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/subtitle/local/PlaybackVideoCapture.kt",
+    "bytes": 17422,
+    "sha256": "8d1efabd1c3577be99803f41138482df4bce91eaeb22051ae92ac840e21d42da"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/subtitle/local/PreparationCommit.kt",
+    "bytes": 457,
+    "sha256": "20b7f1de3a99e9a7c8d793cd83d55300f19b7d859a1226b67b97d94834f6b612"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/subtitle/local/SenseVoiceVideoTranscriber.kt",
+    "bytes": 15106,
+    "sha256": "26c682aacdfcee240dab1e3c5954cd73e117fbbdfbc50a56f1fef6a7622b3b6f"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/subtitle/local/StructuredWeatherSummary.kt",
+    "bytes": 10448,
+    "sha256": "cd7628b05c890e3922c6d6b94486d58a11fdef79251879175298c13d5c1fa977"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/subtitle/model/AsrWord.kt",
+    "bytes": 361,
+    "sha256": "6939967881725c95f349ed67aa89e2d8b091e4f5056288627af8f697c00c0cac"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/subtitle/model/EpisodeSummary.kt",
+    "bytes": 1425,
+    "sha256": "098211f257ad3b06170ec35925418728e5b0c478045cb48606970ec37a6705a3"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/domain/subtitle/model/SubtitleManifest.kt",
+    "bytes": 2892,
+    "sha256": "1b8e0a81d4ca7b55cd6493da04caca0c05a77b7d77e63df127ff93842dc22b53"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/ui/cctv/CctvPlayerActivity.kt",
+    "bytes": 77324,
+    "sha256": "2ad701ede0ba3a00ebcfd7922427018aceccdeb37e6471a23606b9b637e93d8e"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/ui/main/ForecastSourceAttribution.kt",
+    "bytes": 1814,
+    "sha256": "86951edf0be648bdc7df1feedd2e7de33a9aed88a3a9851e4c40e5a663625078"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/ui/main/TomorrowRainEvidenceActivity.kt",
+    "bytes": 22633,
+    "sha256": "788477bfafd9dbf71b48f2e038911da97366777a9085ece9e00b7555c77b9fa6"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/ui/main/TomorrowRainHourlyActivity.kt",
+    "bytes": 13020,
+    "sha256": "8db201523c2bf38699a48c1e5597f113a65ada3f6c49dee520f0a69104878cdf"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/ui/main/adapters/main/holder/CctvWeatherViewHolder.kt",
+    "bytes": 18047,
+    "sha256": "a6d87dac5594fb679218dea22f7abd311609fec58f24af87ae995aa0ca0633db"
+  },
+  {
+    "path": "app/src/main/kotlin/org/breezyweather/ui/main/adapters/main/holder/TomorrowRainViewHolder.kt",
+    "bytes": 24947,
+    "sha256": "95905c10582974b6380e3fd01c930e688a080ea843a3eabd103589be166ede68"
+  },
+  {
+    "path": "app/src/main/res/layout/activity_cctv_player.xml",
+    "bytes": 9832,
+    "sha256": "8f7d6acdd9efc597f8a305a4bf630931472d4c425887378e9b149f04f55fb61c"
+  },
+  {
+    "path": "app/src/main/res/layout/container_main_cctv_weather_card.xml",
+    "bytes": 9788,
+    "sha256": "50759ce12f53c2fbcd6bf1211b1093815c708382703726aca02b8831b8049a03"
+  },
+  {
+    "path": "app/src/main/res/layout/container_main_tomorrow_rain_card.xml",
+    "bytes": 7494,
+    "sha256": "cbc503e7643e3df3c510e7f66a1725256035361b43c01becd0afc8f81c8e4835"
+  },
+  {
+    "path": "app/src/test/kotlin/org/breezyweather/domain/cctv/CctvWeatherServiceTest.kt",
+    "bytes": 8228,
+    "sha256": "5f03246d3571c624a32d6bd86253903fa50bc51bca210427b0f821ee90b3d075"
+  },
+  {
+    "path": "app/src/test/kotlin/org/breezyweather/domain/cctv/ChinaWeatherVideoServiceTest.kt",
+    "bytes": 12205,
+    "sha256": "93e998f23cacf009438f8d92100775fb3c63fc932a048d59210252da92ceebe6"
+  },
+  {
+    "path": "app/src/test/kotlin/org/breezyweather/domain/multisource/HourlySourceMappingTest.kt",
+    "bytes": 7281,
+    "sha256": "1e34aff298f47c14a65ed9634b2d711a358dedc76a72025c5dd3fc0969cb75c3"
+  },
+  {
+    "path": "app/src/test/kotlin/org/breezyweather/domain/multisource/hourly/service/TomorrowRainRecoveryTest.kt",
+    "bytes": 7309,
+    "sha256": "2ca94eab641a101a1e55482eaf9e2fd331a183a299b9c7eb9ac91bc57630a060"
+  },
+  {
+    "path": "app/src/test/kotlin/org/breezyweather/domain/subtitle/EpisodePreparationCacheTest.kt",
+    "bytes": 9312,
+    "sha256": "2f59061fc92cff2d62b185f3ea028803a613cebc26129766630cb0603224cb40"
+  },
+  {
+    "path": "app/src/test/kotlin/org/breezyweather/domain/subtitle/EpisodePreparationCoordinatorTest.kt",
+    "bytes": 17711,
+    "sha256": "ce3e1a276e225b7c35221fff3850f6104130be73681f7c62e13fee03338a5ac4"
+  },
+  {
+    "path": "app/src/test/kotlin/org/breezyweather/domain/subtitle/LocalEpisodeArtifactsConcurrencyTest.kt",
+    "bytes": 19244,
+    "sha256": "87add8d86ea0d606adc9a303627a50138cc37752dab24982ce83b274eb4c6c9a"
+  },
+  {
+    "path": "app/src/test/kotlin/org/breezyweather/domain/subtitle/LocalSummaryQualityTest.kt",
+    "bytes": 2555,
+    "sha256": "e08ae37309b83178db023ace35798883558c07c473427f3ed52102d73fdd1b2e"
+  },
+  {
+    "path": "app/src/test/kotlin/org/breezyweather/domain/subtitle/LocalWeatherSummaryTest.kt",
+    "bytes": 7912,
+    "sha256": "a76cb60a7d54af7b7793438eca02e692fdbed4fb214fd3a5b349b126264514eb"
+  },
+  {
+    "path": "app/src/test/kotlin/org/breezyweather/domain/subtitle/StructuredWeatherSummaryTest.kt",
+    "bytes": 5640,
+    "sha256": "aa1999d9c2cdf6eb7709909b5d8cc5e923dcc561271f27198c347190df9ae9f4"
+  },
+  {
+    "path": "docs/ANDROID_LOCAL_EPISODE_ASR.md",
+    "bytes": 23599,
+    "sha256": "46988f786af958996537a2cd424215452638651b4a87d77f34ad00c38a1906d0"
+  },
+  {
+    "path": "docs/HOURLY_SOURCE_MAPPING.md",
+    "bytes": 4393,
+    "sha256": "e4575e4eb4d82fc150aec08bf82397a5c8f57d41d60b5a2ae54b67f895f60d74"
+  }
+]

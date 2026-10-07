@@ -1,0 +1,56 @@
+pluginManagement {
+    resolutionStrategy {
+        eachPlugin {
+            val regex = "com.android.(library|application)".toRegex()
+            if (regex matches requested.id.id) {
+                useModule("com.android.tools.build:gradle:${requested.version}")
+            }
+            if (requested.id.id == "dagger.hilt.android.plugin") {
+                useModule("com.google.dagger:hilt-android-gradle-plugin:${requested.version}")
+            }
+        }
+    }
+    repositories {
+        // A 5xx from the regional mirror prevents Gradle from trying official repositories in CI.
+        if (System.getenv("GITHUB_ACTIONS") != "true") {
+            maven(url = "https://maven.aliyun.com/repository/public/")
+            maven(url = "https://maven.aliyun.com/repository/google/")
+        }
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven(url = "https://www.jitpack.io")
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        // A 5xx from the regional mirror prevents Gradle from trying official repositories in CI.
+        if (System.getenv("GITHUB_ACTIONS") != "true") {
+            maven(url = "https://maven.aliyun.com/repository/public/")
+            maven(url = "https://maven.aliyun.com/repository/google/")
+        }
+        mavenCentral()
+        google()
+        maven(url = "https://www.jitpack.io")
+    }
+}
+
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+
+rootProject.name = "BreezyWeather"
+include(":app")
+include(":data")
+include(":domain")
+include(":maps-utils")
+include(":ui-weather-view")
+include(":weather-unit")
+
+// To test local changes
+/*includeBuild("../breezy-weather-data-sharing-lib/") {
+    dependencySubstitution {
+        substitute(module("com.github.breezy-weather:breezy-weather-data-sharing-lib"))
+            .using(project(":lib"))
+    }
+}*/

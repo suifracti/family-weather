@@ -1,0 +1,16 @@
+Independent local research experiment, not a production weather release.
+
+Model: SenseVoiceSmall; source/author: Alibaba Group / iic / QwenAudio SenseVoice project
+https://github.com/QwenAudio/SenseVoice
+https://huggingface.co/iic/SenseVoiceSmall
+Converted int8 model name: sherpa-onnx-sense-voice-zh-en-ja-ko-yue-int8-2024-07-17
+Conversion/distribution: k2-fsa/sherpa-onnx (csukuangfj)
+https://github.com/k2-fsa/sherpa-onnx/releases/tag/asr-models
+Weights: FunASR Model Open Source License Agreement v1.1; full terms alongside this notice.
+
+Runtime: sherpa-onnx 1.13.8, k2-fsa, Apache-2.0; ONNX Runtime, Microsoft, MIT.
+https://github.com/k2-fsa/sherpa-onnx/releases/tag/v1.13.8
+https://github.com/microsoft/onnxruntime
+Kotlin standard library 2.4.10: JetBrains, Apache-2.0, reused from existing build cache.
+
+This notice accompanies the experimental APK and unmodified model files. Keep this notice and licenses with the experiment. No authorization for production integration or external publication is inferred.

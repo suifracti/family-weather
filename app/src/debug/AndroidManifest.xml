@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <application android:label="简明天气·SenseVoice候选" tools:replace="android:label">
+        <activity android:name=".ui.main.MainActivity" android:label="简明天气·SenseVoice候选" tools:replace="android:label" />
+        <activity android:name=".ui.cctv.CctvPlayerActivity" android:exported="true" tools:replace="android:exported" />
+        <activity android:name=".ui.media3.SubtitleGateProbeActivity" android:label="Subtitle Gate Probe"
+            android:exported="true" android:hardwareAccelerated="true"
+            android:configChanges="orientation|screenSize|keyboardHidden" android:theme="@style/BreezyWeatherTheme" />
+        <activity android:name="org.breezyweather.debug.ContentAudioCheckActivity" android:exported="true" />
+    </application>
+</manifest>

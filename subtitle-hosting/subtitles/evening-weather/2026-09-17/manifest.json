@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "program": "EVENING_WEATHER",
+  "episodeDate": "2026-09-17",
+  "sourceVideoUrl": "https://vod.weathertv.cn/video/2026/9/17/202609171789651595542.mp4",
+  "sourceVideoSha256": "454C707852EA609C66273C79C799A9DF0287C42FA1BC129809041F020E5C2BAE",
+  "durationMs": 260032,
+  "subtitleOrigin": "AI_ASR_GENERATED",
+  "extractionMethod": "AUTOMATED_ASR_EXTRACTED",
+  "asrModel": "SenseVoiceSmall",
+  "generatedAt": "2026-09-18T05:46:00Z",
+  "vttFile": "subtitle.vtt",
+  "vttSha256": "106230838EE867E3AFE8E8D133603C8205C60088203DED9DF035931012F15E22",
+  "cueCount": 70
+}

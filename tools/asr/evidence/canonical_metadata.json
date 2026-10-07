@@ -1,0 +1,19 @@
+{
+  "episodeDate": "2026-09-17",
+  "sourceAuthority": "CHINA_WEATHER_OFFICIAL_VIDEO",
+  "sourceRole": "ORIGIN_PRODUCER",
+  "sourceMp4Url": "https://vod.weathertv.cn/video/2026/9/17/202609171789651595542.mp4",
+  "sourceFileSha256": "454C707852EA609C66273C79C799A9DF0287C42FA1BC129809041F020E5C2BAE",
+  "sourceFileBytes": 53185198,
+  "videoDurationSeconds": 260.04,
+  "videoResolution": "1920x1080",
+  "videoFps": 25.0,
+  "originalAudioCodec": "aac",
+  "originalSampleRateHz": 48000,
+  "originalChannels": 2,
+  "asrAudioFormat": "PCM_S16LE",
+  "asrSampleRateHz": 16000,
+  "asrChannels": 1,
+  "asrAudioWavBytes": 8321102,
+  "provenanceStatus": "ASR_SOURCE_AUDIO_VERIFIED"
+}

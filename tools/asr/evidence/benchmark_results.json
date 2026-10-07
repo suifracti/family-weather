@@ -1,0 +1,2188 @@
+{
+  "executionTimestamp": "2026-09-18T05:46:00.621192+00:00",
+  "canonicalInput": {
+    "episodeDate": "2026-09-17",
+    "audioDurationSec": 260.032,
+    "format": "PCM S16LE, 16000Hz, Mono"
+  },
+  "models": {
+    "SenseVoiceSmall": {
+      "modelName": "SenseVoiceSmall",
+      "exactVersion": "sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17 (int8)",
+      "backend": "CPU (ONNXRuntime int8, 6 threads)",
+      "modelSizeBytes": 239233841,
+      "modelLoadTimeSec": 8.809,
+      "transcriptionTimeSec": 179.924,
+      "audioDurationSec": 260.032,
+      "rtf": 0.6919,
+      "language": "zh",
+      "rawTranscript": "大家来看天气，过去两四盆地北一带雨频来下平稳，但是不少地方累计雨量也是比较大的典型的华西秋雨的特征，预计今后10天这一带仍然会是我国降为集中的区多地累计降雨会超过100毫米部分地区累计降雨量将会达到250到400毫米。其中今天晚上到明天青海西藏一直到湖北湖南这一带将会出现大范围的小到中雨，其中在西藏云南、四川重庆贵州湖南江西还有海南等地将会有一些分散的大到暴雨出现，需要注意防范频繁强降雨可能会引发的山体滑坡泥石流等次生灾害。而全国其余大部分地区明天以晴或者是多云的天气为主，白天阳光照耀气温升得快，到了夜间呢热量散失也很快，尤其是北方地区，大部分地区的昼夜温差将会达到10到15度，早出晚归需要多穿一些。后天新的一股冷空气到访甘肃宁夏还有内蒙古等地雨水会发增多下不小雨为这空影会体现在降方面周末两地区东内蒙还东多地会陆续出现4到10度的明降我来看一下城市当哈滨长春周的会度今下注意及时描屏维气面来关注城市天气云转到28摄度哈滨晴18到28度长春晴17到28度沈阳晴14到29度云转2到28度呼浩特多云1到26度乌鲁木齐晴1到25度银川晴转多16到2度西宁转多云到20度兰转多1到25度云转小1到2度拉萨转多云10到2度成阵20到26度重庆小雨20到24度贵阳转多云21到28度，昆明阵雨17到25度多云转13到26度多云18到28度，济南晴转多云19到30度，郑多云转18到2度合转19到27度南京22到2度转多云2到30度阵转阴19到25度长沙小雨转阴21到27度，南昌多云23到32度杭州多云24到32度，福州晴23到33度，台北晴24到27度，南宁多云24到34度，海口多云转雷阵26到31度广晴25到34度香港晴26到30度，澳门晴27到30度北京多云转小雨20到28摄氏度，。",
+      "normalizedTranscript": "大家来看天气，过去两四盆地北一带雨频来下平稳，但是不少地方累计雨量也是比较大的典型的华西秋雨的特征，预计今后10天这一带仍然会是我国降为集中的区多地累计降雨会超过100毫米部分地区累计降雨量将会达到250到400毫米。其中今天晚上到明天青海西藏一直到湖北湖南这一带将会出现大范围的小到中雨，其中在西藏云南、四川重庆贵州湖南江西还有海南等地将会有一些分散的大到暴雨出现，需要注意防范频繁强降雨可能会引发的山体滑坡泥石流等次生灾害。而全国其余大部分地区明天以晴或者是多云的天气为主，白天阳光照耀气温升得快，到了夜间呢热量散失也很快，尤其是北方地区，大部分地区的昼夜温差将会达到10到15度，早出晚归需要多穿一些。后天新的一股冷空气到访甘肃宁夏还有内蒙古等地雨水会发增多下不小雨为这空影会体现在降方面周末两地区东内蒙还东多地会陆续出现4到10度的明降我来看一下城市当哈滨长春周的会度今下注意及时描屏维气面来关注城市天气云转到28摄度哈滨晴18到28度长春晴17到28度沈阳晴14到29度云转2到28度呼浩特多云1到26度乌鲁木齐晴1到25度银川晴转多16到2度西宁转多云到20度兰转多1到25度云转小1到2度拉萨转多云10到2度成阵20到26度重庆小雨20到24度贵阳转多云21到28度，昆明阵雨17到25度多云转13到26度多云18到28度，济南晴转多云19到30度，郑多云转18到2度合转19到27度南京22到2度转多云2到30度阵转阴19到25度长沙小雨转阴21到27度，南昌多云23到32度杭州多云24到32度，福州晴23到33度，台北晴24到27度，南宁多云24到34度，海口多云转雷阵26到31度广晴25到34度香港晴26到30度，澳门晴27到30度北京多云转小雨20到28摄氏度，。",
+      "normalizationOperations": [],
+      "segmentCount": 70,
+      "segments": [
+        {
+          "startMs": 6000,
+          "endMs": 7470,
+          "startTimeSec": 6.0,
+          "endTimeSec": 7.47,
+          "rawText": "大家来看天气，",
+          "normalizedText": "大家来看天气，",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 7260,
+          "endMs": 11190,
+          "startTimeSec": 7.26,
+          "endTimeSec": 11.19,
+          "rawText": "过去两四盆地北一带雨频",
+          "normalizedText": "过去两四盆地北一带雨频",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 11640,
+          "endMs": 12450,
+          "startTimeSec": 11.64,
+          "endTimeSec": 12.45,
+          "rawText": "来下",
+          "normalizedText": "来下",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 12840,
+          "endMs": 13590,
+          "startTimeSec": 12.84,
+          "endTimeSec": 13.59,
+          "rawText": "平稳，",
+          "normalizedText": "平稳，",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 13260,
+          "endMs": 17910,
+          "startTimeSec": 13.26,
+          "endTimeSec": 17.91,
+          "rawText": "但是不少地方累计雨量也是比较大的典型的华",
+          "normalizedText": "但是不少地方累计雨量也是比较大的典型的华",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 17580,
+          "endMs": 18990,
+          "startTimeSec": 17.58,
+          "endTimeSec": 18.99,
+          "rawText": "西秋雨的特征，",
+          "normalizedText": "西秋雨的特征，",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 18780,
+          "endMs": 22650,
+          "startTimeSec": 18.78,
+          "endTimeSec": 22.65,
+          "rawText": "预计今后10天这一带仍然会是我国降为集中",
+          "normalizedText": "预计今后10天这一带仍然会是我国降为集中",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 22320,
+          "endMs": 26250,
+          "startTimeSec": 22.32,
+          "endTimeSec": 26.25,
+          "rawText": "的区多地累计降雨会超过100毫米部分地区",
+          "normalizedText": "的区多地累计降雨会超过100毫米部分地区",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 26280,
+          "endMs": 30150,
+          "startTimeSec": 26.28,
+          "endTimeSec": 30.15,
+          "rawText": "累计降雨量将会达到250到400毫米。",
+          "normalizedText": "累计降雨量将会达到250到400毫米。",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 29940,
+          "endMs": 35130,
+          "startTimeSec": 29.94,
+          "endTimeSec": 35.13,
+          "rawText": "其中今天晚上到明天青海西藏一直到湖北湖南",
+          "normalizedText": "其中今天晚上到明天青海西藏一直到湖北湖南",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 34800,
+          "endMs": 38010,
+          "startTimeSec": 34.8,
+          "endTimeSec": 38.01,
+          "rawText": "这一带将会出现大范围的小到中雨，",
+          "normalizedText": "这一带将会出现大范围的小到中雨，",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 37680,
+          "endMs": 43650,
+          "startTimeSec": 37.68,
+          "endTimeSec": 43.65,
+          "rawText": "其中在西藏云南、四川重庆贵州湖南江西还有",
+          "normalizedText": "其中在西藏云南、四川重庆贵州湖南江西还有",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 43380,
+          "endMs": 47790,
+          "startTimeSec": 43.38,
+          "endTimeSec": 47.79,
+          "rawText": "海南等地将会有一些分散的大到暴雨出现，",
+          "normalizedText": "海南等地将会有一些分散的大到暴雨出现，",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 47520,
+          "endMs": 51330,
+          "startTimeSec": 47.52,
+          "endTimeSec": 51.33,
+          "rawText": "需要注意防范频繁强降雨可能会引发的山体滑",
+          "normalizedText": "需要注意防范频繁强降雨可能会引发的山体滑",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 51000,
+          "endMs": 52890,
+          "startTimeSec": 51.0,
+          "endTimeSec": 52.89,
+          "rawText": "坡泥石流等次生灾害。",
+          "normalizedText": "坡泥石流等次生灾害。",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 52680,
+          "endMs": 57150,
+          "startTimeSec": 52.68,
+          "endTimeSec": 57.15,
+          "rawText": "而全国其余大部分地区明天以晴或者是多云的",
+          "normalizedText": "而全国其余大部分地区明天以晴或者是多云的",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 56880,
+          "endMs": 57930,
+          "startTimeSec": 56.88,
+          "endTimeSec": 57.93,
+          "rawText": "天气为主，",
+          "normalizedText": "天气为主，",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 57840,
+          "endMs": 60870,
+          "startTimeSec": 57.84,
+          "endTimeSec": 60.87,
+          "rawText": "白天阳光照耀气温升得快，",
+          "normalizedText": "白天阳光照耀气温升得快，",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 60600,
+          "endMs": 64110,
+          "startTimeSec": 60.6,
+          "endTimeSec": 64.11,
+          "rawText": "到了夜间呢热量散失也很快，",
+          "normalizedText": "到了夜间呢热量散失也很快，",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 64020,
+          "endMs": 65910,
+          "startTimeSec": 64.02,
+          "endTimeSec": 65.91,
+          "rawText": "尤其是北方地区，",
+          "normalizedText": "尤其是北方地区，",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 65820,
+          "endMs": 69690,
+          "startTimeSec": 65.82,
+          "endTimeSec": 69.69,
+          "rawText": "大部分地区的昼夜温差将会达到10到15度",
+          "normalizedText": "大部分地区的昼夜温差将会达到10到15度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 69420,
+          "endMs": 69870,
+          "startTimeSec": 69.42,
+          "endTimeSec": 69.87,
+          "rawText": "，",
+          "normalizedText": "，",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 69840,
+          "endMs": 72210,
+          "startTimeSec": 69.84,
+          "endTimeSec": 72.21,
+          "rawText": "早出晚归需要多穿一些。",
+          "normalizedText": "早出晚归需要多穿一些。",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 72120,
+          "endMs": 77010,
+          "startTimeSec": 72.12,
+          "endTimeSec": 77.01,
+          "rawText": "后天新的一股冷空气到访甘肃宁夏还有内蒙古",
+          "normalizedText": "后天新的一股冷空气到访甘肃宁夏还有内蒙古",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 76740,
+          "endMs": 82350,
+          "startTimeSec": 76.74,
+          "endTimeSec": 82.35,
+          "rawText": "等地雨水会发增多下不小雨为这空影",
+          "normalizedText": "等地雨水会发增多下不小雨为这空影",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 82800,
+          "endMs": 87990,
+          "startTimeSec": 82.8,
+          "endTimeSec": 87.99,
+          "rawText": "会体现在降方面周末两地区东内蒙还东",
+          "normalizedText": "会体现在降方面周末两地区东内蒙还东",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 88320,
+          "endMs": 93330,
+          "startTimeSec": 88.32,
+          "endTimeSec": 93.33,
+          "rawText": "多地会陆续出现4到10度的明降我来看一下",
+          "normalizedText": "多地会陆续出现4到10度的明降我来看一下",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 93060,
+          "endMs": 96090,
+          "startTimeSec": 93.06,
+          "endTimeSec": 96.09,
+          "rawText": "城市当哈滨长春周的",
+          "normalizedText": "城市当哈滨长春周的",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 96900,
+          "endMs": 98550,
+          "startTimeSec": 96.9,
+          "endTimeSec": 98.55,
+          "rawText": "会度今下",
+          "normalizedText": "会度今下",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 100680,
+          "endMs": 101670,
+          "startTimeSec": 100.68,
+          "endTimeSec": 101.67,
+          "rawText": "注意及时",
+          "normalizedText": "注意及时",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 103260,
+          "endMs": 104430,
+          "startTimeSec": 103.26,
+          "endTimeSec": 104.43,
+          "rawText": "描屏维",
+          "normalizedText": "描屏维",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 105300,
+          "endMs": 106770,
+          "startTimeSec": 105.3,
+          "endTimeSec": 106.77,
+          "rawText": "气面来关注",
+          "normalizedText": "气面来关注",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 107220,
+          "endMs": 108150,
+          "startTimeSec": 107.22,
+          "endTimeSec": 108.15,
+          "rawText": "城市天气",
+          "normalizedText": "城市天气",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 110220,
+          "endMs": 110790,
+          "startTimeSec": 110.22,
+          "endTimeSec": 110.79,
+          "rawText": "云转",
+          "normalizedText": "云转",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 111300,
+          "endMs": 112710,
+          "startTimeSec": 111.3,
+          "endTimeSec": 112.71,
+          "rawText": "到28摄度",
+          "normalizedText": "到28摄度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 113280,
+          "endMs": 115530,
+          "startTimeSec": 113.28,
+          "endTimeSec": 115.53,
+          "rawText": "哈滨晴18到28度",
+          "normalizedText": "哈滨晴18到28度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 116580,
+          "endMs": 118650,
+          "startTimeSec": 116.58,
+          "endTimeSec": 118.65,
+          "rawText": "长春晴17到28度",
+          "normalizedText": "长春晴17到28度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 120240,
+          "endMs": 122550,
+          "startTimeSec": 120.24,
+          "endTimeSec": 122.55,
+          "rawText": "沈阳晴14到29度",
+          "normalizedText": "沈阳晴14到29度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 124140,
+          "endMs": 126210,
+          "startTimeSec": 124.14,
+          "endTimeSec": 126.21,
+          "rawText": "云转2到28度",
+          "normalizedText": "云转2到28度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 127200,
+          "endMs": 129510,
+          "startTimeSec": 127.2,
+          "endTimeSec": 129.51,
+          "rawText": "呼浩特多云1到26度",
+          "normalizedText": "呼浩特多云1到26度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 130860,
+          "endMs": 133230,
+          "startTimeSec": 130.86,
+          "endTimeSec": 133.23,
+          "rawText": "乌鲁木齐晴1到25度",
+          "normalizedText": "乌鲁木齐晴1到25度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 134580,
+          "endMs": 137010,
+          "startTimeSec": 134.58,
+          "endTimeSec": 137.01,
+          "rawText": "银川晴转多16到2度",
+          "normalizedText": "银川晴转多16到2度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 137760,
+          "endMs": 139890,
+          "startTimeSec": 137.76,
+          "endTimeSec": 139.89,
+          "rawText": "西宁转多云到20度",
+          "normalizedText": "西宁转多云到20度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 141240,
+          "endMs": 143730,
+          "startTimeSec": 141.24,
+          "endTimeSec": 143.73,
+          "rawText": "兰转多1到25度",
+          "normalizedText": "兰转多1到25度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 145260,
+          "endMs": 147270,
+          "startTimeSec": 145.26,
+          "endTimeSec": 147.27,
+          "rawText": "云转小1到2度",
+          "normalizedText": "云转小1到2度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 148320,
+          "endMs": 150630,
+          "startTimeSec": 148.32,
+          "endTimeSec": 150.63,
+          "rawText": "拉萨转多云10到2度",
+          "normalizedText": "拉萨转多云10到2度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 151920,
+          "endMs": 154050,
+          "startTimeSec": 151.92,
+          "endTimeSec": 154.05,
+          "rawText": "成阵20到26度",
+          "normalizedText": "成阵20到26度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 155280,
+          "endMs": 157590,
+          "startTimeSec": 155.28,
+          "endTimeSec": 157.59,
+          "rawText": "重庆小雨20到24度",
+          "normalizedText": "重庆小雨20到24度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 158880,
+          "endMs": 161610,
+          "startTimeSec": 158.88,
+          "endTimeSec": 161.61,
+          "rawText": "贵阳转多云21到28度，",
+          "normalizedText": "贵阳转多云21到28度，",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 162360,
+          "endMs": 164310,
+          "startTimeSec": 162.36,
+          "endTimeSec": 164.31,
+          "rawText": "昆明阵雨17到25度",
+          "normalizedText": "昆明阵雨17到25度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 166140,
+          "endMs": 168390,
+          "startTimeSec": 166.14,
+          "endTimeSec": 168.39,
+          "rawText": "多云转13到26度",
+          "normalizedText": "多云转13到26度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 169920,
+          "endMs": 172050,
+          "startTimeSec": 169.92,
+          "endTimeSec": 172.05,
+          "rawText": "多云18到28度，",
+          "normalizedText": "多云18到28度，",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 172920,
+          "endMs": 175350,
+          "startTimeSec": 172.92,
+          "endTimeSec": 175.35,
+          "rawText": "济南晴转多云19到30度，",
+          "normalizedText": "济南晴转多云19到30度，",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 176280,
+          "endMs": 178770,
+          "startTimeSec": 176.28,
+          "endTimeSec": 178.77,
+          "rawText": "郑多云转18到2度",
+          "normalizedText": "郑多云转18到2度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 179760,
+          "endMs": 182370,
+          "startTimeSec": 179.76,
+          "endTimeSec": 182.37,
+          "rawText": "合转19到27度",
+          "normalizedText": "合转19到27度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 183300,
+          "endMs": 185610,
+          "startTimeSec": 183.3,
+          "endTimeSec": 185.61,
+          "rawText": "南京22到2度",
+          "normalizedText": "南京22到2度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 187200,
+          "endMs": 189090,
+          "startTimeSec": 187.2,
+          "endTimeSec": 189.09,
+          "rawText": "转多云2到30度",
+          "normalizedText": "转多云2到30度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 190620,
+          "endMs": 192750,
+          "startTimeSec": 190.62,
+          "endTimeSec": 192.75,
+          "rawText": "阵转阴19到25度",
+          "normalizedText": "阵转阴19到25度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 193740,
+          "endMs": 196590,
+          "startTimeSec": 193.74,
+          "endTimeSec": 196.59,
+          "rawText": "长沙小雨转阴21到27度，",
+          "normalizedText": "长沙小雨转阴21到27度，",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 197460,
+          "endMs": 199890,
+          "startTimeSec": 197.46,
+          "endTimeSec": 199.89,
+          "rawText": "南昌多云23到32度",
+          "normalizedText": "南昌多云23到32度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 201000,
+          "endMs": 203490,
+          "startTimeSec": 201.0,
+          "endTimeSec": 203.49,
+          "rawText": "杭州多云24到32度，",
+          "normalizedText": "杭州多云24到32度，",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 204180,
+          "endMs": 206610,
+          "startTimeSec": 204.18,
+          "endTimeSec": 206.61,
+          "rawText": "福州晴23到33度，",
+          "normalizedText": "福州晴23到33度，",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 207540,
+          "endMs": 210030,
+          "startTimeSec": 207.54,
+          "endTimeSec": 210.03,
+          "rawText": "台北晴24到27度，",
+          "normalizedText": "台北晴24到27度，",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 211020,
+          "endMs": 213630,
+          "startTimeSec": 211.02,
+          "endTimeSec": 213.63,
+          "rawText": "南宁多云24到34度，",
+          "normalizedText": "南宁多云24到34度，",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 214680,
+          "endMs": 217350,
+          "startTimeSec": 214.68,
+          "endTimeSec": 217.35,
+          "rawText": "海口多云转雷阵26到31度",
+          "normalizedText": "海口多云转雷阵26到31度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 218040,
+          "endMs": 220230,
+          "startTimeSec": 218.04,
+          "endTimeSec": 220.23,
+          "rawText": "广晴25到34度",
+          "normalizedText": "广晴25到34度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 221400,
+          "endMs": 223710,
+          "startTimeSec": 221.4,
+          "endTimeSec": 223.71,
+          "rawText": "香港晴26到30度，",
+          "normalizedText": "香港晴26到30度，",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 224880,
+          "endMs": 227130,
+          "startTimeSec": 224.88,
+          "endTimeSec": 227.13,
+          "rawText": "澳门晴27到30度",
+          "normalizedText": "澳门晴27到30度",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 245340,
+          "endMs": 248430,
+          "startTimeSec": 245.34,
+          "endTimeSec": 248.43,
+          "rawText": "北京多云转小雨20到28摄氏度，",
+          "normalizedText": "北京多云转小雨20到28摄氏度，",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        },
+        {
+          "startMs": 259980,
+          "endMs": 260032,
+          "startTimeSec": 259.98,
+          "endTimeSec": 260.032,
+          "rawText": "。",
+          "normalizedText": "。",
+          "confidence": null,
+          "model": "SenseVoiceSmall"
+        }
+      ]
+    },
+    "fasterWhisperSmall": {
+      "modelName": "faster-whisper-small",
+      "exactVersion": "Systran/faster-whisper-small (CTranslate2 int8)",
+      "backend": "CPU (CTranslate2 int8, 6 threads)",
+      "modelSizeBytes": 484000000,
+      "modelLoadTimeSec": 10.805,
+      "transcriptionTimeSec": 568.513,
+      "audioDurationSec": 260.032,
+      "rtf": 2.1863,
+      "language": "zh",
+      "languageProbability": 1,
+      "rawTranscript": "大家要來看天氣過去兩三天四川盆地到湖北一帶雨水頻繁總體來說下得比較平穩但是不少地方累積雨量也是比較大的典型的華西秋雨的特徵預計今後十天這一帶仍然會是我國降雨最為集中的區域多地累積降雨量會超過100毫米部分地區累積降雨量將會達到250到400毫米總體來說將會達到250到400毫米其中今天晚上到明天青海 西藏一直到湖北湖南這一帶將會出現大範圍的小道終雨其中在西藏 雲南 四川重慶 貴州 湖南 江西還有海南等地將會有一些分散的大道暴雨出現需要注意防範頻繁強降雨可能會引發的山體滑坡 泥石流等次生災害而全國其餘大部分地區今天以晴或者是多雲的天氣為主白天陽光照耀 氣溫升得快到了夜間 熱量散失也很快尤其是北方地區大部分地區的晝夜溫差將會達到10到15度早出晚歸 需要多穿一些後天 新的一股冷空氣到訪 甘肅凝下還有內蒙古等地雨水會發展增多下得不大 小雨為主這股冷空氣影響主要會體現在降溫方面週末兩天西北地區東部 內蒙古還有東北的多地會陸續出現4到10度的明顯降溫我們來看一下城市當中向哈爾濱長春週日的時候紛紛會度過今年下半年以來最涼的一個白天需要注意即時天氣暴暖掃描屏幕上方阿維碼了解更多天氣信息以下我們來關注具體的《城市天氣報》北京堆轉小雨20到28攝氏度哈爾濱晴18到28度長春晴17到28度沈陽晴14到29度天津堆轉煙22到28度霍浩的多雲13到26度烏魯木齊晴13到25度銀川晴轉多雲16到27度西寧銀轉多雲8到20度藍州銀轉多雲14到25度西安堆轉小雨19到23度拉薩銀轉多雲10到21度成都震雨20到26度重慶小雨20到24度貴陽銀轉多雲21到28度昆明震雨17到25度太陽堆轉煙13到26度時代上多雲18到28度濟南晴轉多雲19到30度鄭州堆轉煙18到29度河肥小雨轉煙19到27度南京煙22到29度上海銀轉多雲23到30度武漢震雨轉煙19到25度長沙小雨轉煙21到27度南京多雲23到32度杭州多雲24到32度福州晴23到33度台北晴24到27度南京多雲24到34度海口堆轉煙震雨26到31度廣州晴25到34度香港晴26到30度北京多雲27到30度北京堆轉小雨20到28度中文字幕",
+      "normalizedTranscript": "大家要來看天氣過去兩三天四川盆地到湖北一帶雨水頻繁總體來說下得比較平穩但是不少地方累積雨量也是比較大的典型的華西秋雨的特徵預計今後十天這一帶仍然會是我國降雨最為集中的區域多地累積降雨量會超過100毫米部分地區累積降雨量將會達到250到400毫米總體來說將會達到250到400毫米其中今天晚上到明天青海 西藏一直到湖北湖南這一帶將會出現大範圍的小道終雨其中在西藏 雲南 四川重慶 貴州 湖南 江西還有海南等地將會有一些分散的大道暴雨出現需要注意防範頻繁強降雨可能會引發的山體滑坡 泥石流等次生災害而全國其餘大部分地區今天以晴或者是多雲的天氣為主白天陽光照耀 氣溫升得快到了夜間 熱量散失也很快尤其是北方地區大部分地區的晝夜溫差將會達到10到15度早出晚歸 需要多穿一些後天 新的一股冷空氣到訪 甘肅凝下還有內蒙古等地雨水會發展增多下得不大 小雨為主這股冷空氣影響主要會體現在降溫方面週末兩天西北地區東部 內蒙古還有東北的多地會陸續出現4到10度的明顯降溫我們來看一下城市當中向哈爾濱長春週日的時候紛紛會度過今年下半年以來最涼的一個白天需要注意即時天氣暴暖掃描屏幕上方阿維碼了解更多天氣信息以下我們來關注具體的《城市天氣報》北京堆轉小雨20到28攝氏度哈爾濱晴18到28度長春晴17到28度沈陽晴14到29度天津堆轉煙22到28度霍浩的多雲13到26度烏魯木齊晴13到25度銀川晴轉多雲16到27度西寧銀轉多雲8到20度藍州銀轉多雲14到25度西安堆轉小雨19到23度拉薩銀轉多雲10到21度成都震雨20到26度重慶小雨20到24度貴陽銀轉多雲21到28度昆明震雨17到25度太陽堆轉煙13到26度時代上多雲18到28度濟南晴轉多雲19到30度鄭州堆轉煙18到29度河肥小雨轉煙19到27度南京煙22到29度上海銀轉多雲23到30度武漢震雨轉煙19到25度長沙小雨轉煙21到27度南京多雲23到32度杭州多雲24到32度福州晴23到33度台北晴24到27度南京多雲24到34度海口堆轉煙震雨26到31度廣州晴25到34度香港晴26到30度北京多雲27到30度北京堆轉小雨20到28度中文字幕",
+      "normalizationOperations": [],
+      "segmentCount": 133,
+      "segments": [
+        {
+          "startMs": 0,
+          "endMs": 3340,
+          "startTimeSec": 0.0,
+          "endTimeSec": 3.34,
+          "rawText": "大家要來看天氣",
+          "normalizedText": "大家要來看天氣",
+          "confidence": 0.742,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 3340,
+          "endMs": 4540,
+          "startTimeSec": 3.34,
+          "endTimeSec": 4.54,
+          "rawText": "過去兩三天",
+          "normalizedText": "過去兩三天",
+          "confidence": 0.742,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 4540,
+          "endMs": 7340,
+          "startTimeSec": 4.54,
+          "endTimeSec": 7.34,
+          "rawText": "四川盆地到湖北一帶雨水頻繁",
+          "normalizedText": "四川盆地到湖北一帶雨水頻繁",
+          "confidence": 0.742,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 7340,
+          "endMs": 9340,
+          "startTimeSec": 7.34,
+          "endTimeSec": 9.34,
+          "rawText": "總體來說下得比較平穩",
+          "normalizedText": "總體來說下得比較平穩",
+          "confidence": 0.742,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 9340,
+          "endMs": 11340,
+          "startTimeSec": 9.34,
+          "endTimeSec": 11.34,
+          "rawText": "但是不少地方累積雨量",
+          "normalizedText": "但是不少地方累積雨量",
+          "confidence": 0.742,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 11340,
+          "endMs": 13000,
+          "startTimeSec": 11.34,
+          "endTimeSec": 13.0,
+          "rawText": "也是比較大的",
+          "normalizedText": "也是比較大的",
+          "confidence": 0.742,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 13000,
+          "endMs": 15000,
+          "startTimeSec": 13.0,
+          "endTimeSec": 15.0,
+          "rawText": "典型的華西秋雨的特徵",
+          "normalizedText": "典型的華西秋雨的特徵",
+          "confidence": 0.742,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 15000,
+          "endMs": 16000,
+          "startTimeSec": 15.0,
+          "endTimeSec": 16.0,
+          "rawText": "預計今後十天",
+          "normalizedText": "預計今後十天",
+          "confidence": 0.742,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 16000,
+          "endMs": 17000,
+          "startTimeSec": 16.0,
+          "endTimeSec": 17.0,
+          "rawText": "這一帶仍然會是",
+          "normalizedText": "這一帶仍然會是",
+          "confidence": 0.742,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 17000,
+          "endMs": 19000,
+          "startTimeSec": 17.0,
+          "endTimeSec": 19.0,
+          "rawText": "我國降雨最為集中的區域",
+          "normalizedText": "我國降雨最為集中的區域",
+          "confidence": 0.742,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 19000,
+          "endMs": 20000,
+          "startTimeSec": 19.0,
+          "endTimeSec": 20.0,
+          "rawText": "多地累積降雨量",
+          "normalizedText": "多地累積降雨量",
+          "confidence": 0.742,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 20000,
+          "endMs": 21000,
+          "startTimeSec": 20.0,
+          "endTimeSec": 21.0,
+          "rawText": "會超過100毫米",
+          "normalizedText": "會超過100毫米",
+          "confidence": 0.742,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 21000,
+          "endMs": 23000,
+          "startTimeSec": 21.0,
+          "endTimeSec": 23.0,
+          "rawText": "部分地區累積降雨量",
+          "normalizedText": "部分地區累積降雨量",
+          "confidence": 0.742,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 23000,
+          "endMs": 26000,
+          "startTimeSec": 23.0,
+          "endTimeSec": 26.0,
+          "rawText": "將會達到250到400毫米",
+          "normalizedText": "將會達到250到400毫米",
+          "confidence": 0.742,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 26000,
+          "endMs": 27000,
+          "startTimeSec": 26.0,
+          "endTimeSec": 27.0,
+          "rawText": "總體來說",
+          "normalizedText": "總體來說",
+          "confidence": 0.742,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 27000,
+          "endMs": 30000,
+          "startTimeSec": 27.0,
+          "endTimeSec": 30.0,
+          "rawText": "將會達到250到400毫米",
+          "normalizedText": "將會達到250到400毫米",
+          "confidence": 0.896,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 30000,
+          "endMs": 32000,
+          "startTimeSec": 30.0,
+          "endTimeSec": 32.0,
+          "rawText": "其中今天晚上到明天",
+          "normalizedText": "其中今天晚上到明天",
+          "confidence": 0.896,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 32000,
+          "endMs": 33000,
+          "startTimeSec": 32.0,
+          "endTimeSec": 33.0,
+          "rawText": "青海 西藏",
+          "normalizedText": "青海 西藏",
+          "confidence": 0.896,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 33000,
+          "endMs": 35000,
+          "startTimeSec": 33.0,
+          "endTimeSec": 35.0,
+          "rawText": "一直到湖北湖南這一帶",
+          "normalizedText": "一直到湖北湖南這一帶",
+          "confidence": 0.896,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 35000,
+          "endMs": 38000,
+          "startTimeSec": 35.0,
+          "endTimeSec": 38.0,
+          "rawText": "將會出現大範圍的小道終雨",
+          "normalizedText": "將會出現大範圍的小道終雨",
+          "confidence": 0.896,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 38000,
+          "endMs": 40000,
+          "startTimeSec": 38.0,
+          "endTimeSec": 40.0,
+          "rawText": "其中在西藏 雲南 四川",
+          "normalizedText": "其中在西藏 雲南 四川",
+          "confidence": 0.896,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 40000,
+          "endMs": 43000,
+          "startTimeSec": 40.0,
+          "endTimeSec": 43.0,
+          "rawText": "重慶 貴州 湖南 江西",
+          "normalizedText": "重慶 貴州 湖南 江西",
+          "confidence": 0.896,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 43000,
+          "endMs": 44000,
+          "startTimeSec": 43.0,
+          "endTimeSec": 44.0,
+          "rawText": "還有海南等地",
+          "normalizedText": "還有海南等地",
+          "confidence": 0.896,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 44000,
+          "endMs": 47000,
+          "startTimeSec": 44.0,
+          "endTimeSec": 47.0,
+          "rawText": "將會有一些分散的大道暴雨出現",
+          "normalizedText": "將會有一些分散的大道暴雨出現",
+          "confidence": 0.896,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 47000,
+          "endMs": 48000,
+          "startTimeSec": 47.0,
+          "endTimeSec": 48.0,
+          "rawText": "需要注意防範",
+          "normalizedText": "需要注意防範",
+          "confidence": 0.896,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 48000,
+          "endMs": 49000,
+          "startTimeSec": 48.0,
+          "endTimeSec": 49.0,
+          "rawText": "頻繁強降雨",
+          "normalizedText": "頻繁強降雨",
+          "confidence": 0.896,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 49000,
+          "endMs": 50000,
+          "startTimeSec": 49.0,
+          "endTimeSec": 50.0,
+          "rawText": "可能會引發的",
+          "normalizedText": "可能會引發的",
+          "confidence": 0.896,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 50000,
+          "endMs": 53000,
+          "startTimeSec": 50.0,
+          "endTimeSec": 53.0,
+          "rawText": "山體滑坡 泥石流等次生災害",
+          "normalizedText": "山體滑坡 泥石流等次生災害",
+          "confidence": 0.896,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 53000,
+          "endMs": 55000,
+          "startTimeSec": 53.0,
+          "endTimeSec": 55.0,
+          "rawText": "而全國其餘大部分地區",
+          "normalizedText": "而全國其餘大部分地區",
+          "confidence": 0.896,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 55000,
+          "endMs": 56000,
+          "startTimeSec": 55.0,
+          "endTimeSec": 56.0,
+          "rawText": "今天以晴",
+          "normalizedText": "今天以晴",
+          "confidence": 0.913,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 56000,
+          "endMs": 58000,
+          "startTimeSec": 56.0,
+          "endTimeSec": 58.0,
+          "rawText": "或者是多雲的天氣為主",
+          "normalizedText": "或者是多雲的天氣為主",
+          "confidence": 0.913,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 58000,
+          "endMs": 61000,
+          "startTimeSec": 58.0,
+          "endTimeSec": 61.0,
+          "rawText": "白天陽光照耀 氣溫升得快",
+          "normalizedText": "白天陽光照耀 氣溫升得快",
+          "confidence": 0.913,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 61000,
+          "endMs": 64000,
+          "startTimeSec": 61.0,
+          "endTimeSec": 64.0,
+          "rawText": "到了夜間 熱量散失也很快",
+          "normalizedText": "到了夜間 熱量散失也很快",
+          "confidence": 0.913,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 64000,
+          "endMs": 66000,
+          "startTimeSec": 64.0,
+          "endTimeSec": 66.0,
+          "rawText": "尤其是北方地區",
+          "normalizedText": "尤其是北方地區",
+          "confidence": 0.913,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 66000,
+          "endMs": 68000,
+          "startTimeSec": 66.0,
+          "endTimeSec": 68.0,
+          "rawText": "大部分地區的晝夜溫差",
+          "normalizedText": "大部分地區的晝夜溫差",
+          "confidence": 0.913,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 68000,
+          "endMs": 70000,
+          "startTimeSec": 68.0,
+          "endTimeSec": 70.0,
+          "rawText": "將會達到10到15度",
+          "normalizedText": "將會達到10到15度",
+          "confidence": 0.913,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 70000,
+          "endMs": 72000,
+          "startTimeSec": 70.0,
+          "endTimeSec": 72.0,
+          "rawText": "早出晚歸 需要多穿一些",
+          "normalizedText": "早出晚歸 需要多穿一些",
+          "confidence": 0.913,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 72000,
+          "endMs": 74000,
+          "startTimeSec": 72.0,
+          "endTimeSec": 74.0,
+          "rawText": "後天 新的一股冷空氣",
+          "normalizedText": "後天 新的一股冷空氣",
+          "confidence": 0.913,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 74000,
+          "endMs": 76000,
+          "startTimeSec": 74.0,
+          "endTimeSec": 76.0,
+          "rawText": "到訪 甘肅凝下",
+          "normalizedText": "到訪 甘肅凝下",
+          "confidence": 0.913,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 76000,
+          "endMs": 77000,
+          "startTimeSec": 76.0,
+          "endTimeSec": 77.0,
+          "rawText": "還有內蒙古等地",
+          "normalizedText": "還有內蒙古等地",
+          "confidence": 0.913,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 77000,
+          "endMs": 79000,
+          "startTimeSec": 77.0,
+          "endTimeSec": 79.0,
+          "rawText": "雨水會發展增多",
+          "normalizedText": "雨水會發展增多",
+          "confidence": 0.913,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 79000,
+          "endMs": 81000,
+          "startTimeSec": 79.0,
+          "endTimeSec": 81.0,
+          "rawText": "下得不大 小雨為主",
+          "normalizedText": "下得不大 小雨為主",
+          "confidence": 0.913,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 81000,
+          "endMs": 82000,
+          "startTimeSec": 81.0,
+          "endTimeSec": 82.0,
+          "rawText": "這股冷空氣影響",
+          "normalizedText": "這股冷空氣影響",
+          "confidence": 0.913,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 82000,
+          "endMs": 84000,
+          "startTimeSec": 82.0,
+          "endTimeSec": 84.0,
+          "rawText": "主要會體現在降溫方面",
+          "normalizedText": "主要會體現在降溫方面",
+          "confidence": 0.913,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 84000,
+          "endMs": 85000,
+          "startTimeSec": 84.0,
+          "endTimeSec": 85.0,
+          "rawText": "週末兩天",
+          "normalizedText": "週末兩天",
+          "confidence": 0.869,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 85000,
+          "endMs": 87000,
+          "startTimeSec": 85.0,
+          "endTimeSec": 87.0,
+          "rawText": "西北地區東部 內蒙古",
+          "normalizedText": "西北地區東部 內蒙古",
+          "confidence": 0.869,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 87000,
+          "endMs": 89000,
+          "startTimeSec": 87.0,
+          "endTimeSec": 89.0,
+          "rawText": "還有東北的多地",
+          "normalizedText": "還有東北的多地",
+          "confidence": 0.869,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 89000,
+          "endMs": 90000,
+          "startTimeSec": 89.0,
+          "endTimeSec": 90.0,
+          "rawText": "會陸續出現",
+          "normalizedText": "會陸續出現",
+          "confidence": 0.869,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 90000,
+          "endMs": 92000,
+          "startTimeSec": 90.0,
+          "endTimeSec": 92.0,
+          "rawText": "4到10度的明顯降溫",
+          "normalizedText": "4到10度的明顯降溫",
+          "confidence": 0.869,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 92000,
+          "endMs": 93000,
+          "startTimeSec": 92.0,
+          "endTimeSec": 93.0,
+          "rawText": "我們來看一下城市當中",
+          "normalizedText": "我們來看一下城市當中",
+          "confidence": 0.869,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 93000,
+          "endMs": 95000,
+          "startTimeSec": 93.0,
+          "endTimeSec": 95.0,
+          "rawText": "向哈爾濱長春",
+          "normalizedText": "向哈爾濱長春",
+          "confidence": 0.869,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 95000,
+          "endMs": 96000,
+          "startTimeSec": 95.0,
+          "endTimeSec": 96.0,
+          "rawText": "週日的時候",
+          "normalizedText": "週日的時候",
+          "confidence": 0.869,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 96000,
+          "endMs": 97000,
+          "startTimeSec": 96.0,
+          "endTimeSec": 97.0,
+          "rawText": "紛紛會度過",
+          "normalizedText": "紛紛會度過",
+          "confidence": 0.869,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 97000,
+          "endMs": 99000,
+          "startTimeSec": 97.0,
+          "endTimeSec": 99.0,
+          "rawText": "今年下半年以來",
+          "normalizedText": "今年下半年以來",
+          "confidence": 0.869,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 99000,
+          "endMs": 100000,
+          "startTimeSec": 99.0,
+          "endTimeSec": 100.0,
+          "rawText": "最涼的一個白天",
+          "normalizedText": "最涼的一個白天",
+          "confidence": 0.869,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 100000,
+          "endMs": 103000,
+          "startTimeSec": 100.0,
+          "endTimeSec": 103.0,
+          "rawText": "需要注意即時天氣暴暖",
+          "normalizedText": "需要注意即時天氣暴暖",
+          "confidence": 0.869,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 103000,
+          "endMs": 104000,
+          "startTimeSec": 103.0,
+          "endTimeSec": 104.0,
+          "rawText": "掃描屏幕上方阿維碼",
+          "normalizedText": "掃描屏幕上方阿維碼",
+          "confidence": 0.869,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 104000,
+          "endMs": 105000,
+          "startTimeSec": 104.0,
+          "endTimeSec": 105.0,
+          "rawText": "了解更多天氣信息",
+          "normalizedText": "了解更多天氣信息",
+          "confidence": 0.869,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 105000,
+          "endMs": 106000,
+          "startTimeSec": 105.0,
+          "endTimeSec": 106.0,
+          "rawText": "以下我們來關注",
+          "normalizedText": "以下我們來關注",
+          "confidence": 0.869,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 106000,
+          "endMs": 108000,
+          "startTimeSec": 106.0,
+          "endTimeSec": 108.0,
+          "rawText": "具體的《城市天氣報》",
+          "normalizedText": "具體的《城市天氣報》",
+          "confidence": 0.869,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 109000,
+          "endMs": 110000,
+          "startTimeSec": 109.0,
+          "endTimeSec": 110.0,
+          "rawText": "北京堆轉小雨",
+          "normalizedText": "北京堆轉小雨",
+          "confidence": 0.869,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 110000,
+          "endMs": 113000,
+          "startTimeSec": 110.0,
+          "endTimeSec": 113.0,
+          "rawText": "20到28攝氏度",
+          "normalizedText": "20到28攝氏度",
+          "confidence": 0.869,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 113000,
+          "endMs": 114000,
+          "startTimeSec": 113.0,
+          "endTimeSec": 114.0,
+          "rawText": "哈爾濱晴",
+          "normalizedText": "哈爾濱晴",
+          "confidence": 0.893,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 114000,
+          "endMs": 116000,
+          "startTimeSec": 114.0,
+          "endTimeSec": 116.0,
+          "rawText": "18到28度",
+          "normalizedText": "18到28度",
+          "confidence": 0.893,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 116000,
+          "endMs": 117000,
+          "startTimeSec": 116.0,
+          "endTimeSec": 117.0,
+          "rawText": "長春晴",
+          "normalizedText": "長春晴",
+          "confidence": 0.893,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 117000,
+          "endMs": 120000,
+          "startTimeSec": 117.0,
+          "endTimeSec": 120.0,
+          "rawText": "17到28度",
+          "normalizedText": "17到28度",
+          "confidence": 0.893,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 120000,
+          "endMs": 121000,
+          "startTimeSec": 120.0,
+          "endTimeSec": 121.0,
+          "rawText": "沈陽晴",
+          "normalizedText": "沈陽晴",
+          "confidence": 0.893,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 121000,
+          "endMs": 123000,
+          "startTimeSec": 121.0,
+          "endTimeSec": 123.0,
+          "rawText": "14到29度",
+          "normalizedText": "14到29度",
+          "confidence": 0.893,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 123000,
+          "endMs": 124000,
+          "startTimeSec": 123.0,
+          "endTimeSec": 124.0,
+          "rawText": "天津堆轉煙",
+          "normalizedText": "天津堆轉煙",
+          "confidence": 0.893,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 124000,
+          "endMs": 127000,
+          "startTimeSec": 124.0,
+          "endTimeSec": 127.0,
+          "rawText": "22到28度",
+          "normalizedText": "22到28度",
+          "confidence": 0.893,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 127000,
+          "endMs": 128000,
+          "startTimeSec": 127.0,
+          "endTimeSec": 128.0,
+          "rawText": "霍浩的多雲",
+          "normalizedText": "霍浩的多雲",
+          "confidence": 0.893,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 128000,
+          "endMs": 130000,
+          "startTimeSec": 128.0,
+          "endTimeSec": 130.0,
+          "rawText": "13到26度",
+          "normalizedText": "13到26度",
+          "confidence": 0.893,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 130000,
+          "endMs": 131000,
+          "startTimeSec": 130.0,
+          "endTimeSec": 131.0,
+          "rawText": "烏魯木齊晴",
+          "normalizedText": "烏魯木齊晴",
+          "confidence": 0.893,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 131000,
+          "endMs": 134000,
+          "startTimeSec": 131.0,
+          "endTimeSec": 134.0,
+          "rawText": "13到25度",
+          "normalizedText": "13到25度",
+          "confidence": 0.893,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 134000,
+          "endMs": 135000,
+          "startTimeSec": 134.0,
+          "endTimeSec": 135.0,
+          "rawText": "銀川晴轉多雲",
+          "normalizedText": "銀川晴轉多雲",
+          "confidence": 0.893,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 135000,
+          "endMs": 137000,
+          "startTimeSec": 135.0,
+          "endTimeSec": 137.0,
+          "rawText": "16到27度",
+          "normalizedText": "16到27度",
+          "confidence": 0.893,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 137000,
+          "endMs": 138000,
+          "startTimeSec": 137.0,
+          "endTimeSec": 138.0,
+          "rawText": "西寧銀轉多雲",
+          "normalizedText": "西寧銀轉多雲",
+          "confidence": 0.893,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 138000,
+          "endMs": 141000,
+          "startTimeSec": 138.0,
+          "endTimeSec": 141.0,
+          "rawText": "8到20度",
+          "normalizedText": "8到20度",
+          "confidence": 0.893,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 141000,
+          "endMs": 142000,
+          "startTimeSec": 141.0,
+          "endTimeSec": 142.0,
+          "rawText": "藍州銀轉多雲",
+          "normalizedText": "藍州銀轉多雲",
+          "confidence": 0.925,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 142000,
+          "endMs": 145000,
+          "startTimeSec": 142.0,
+          "endTimeSec": 145.0,
+          "rawText": "14到25度",
+          "normalizedText": "14到25度",
+          "confidence": 0.925,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 145000,
+          "endMs": 146000,
+          "startTimeSec": 145.0,
+          "endTimeSec": 146.0,
+          "rawText": "西安堆轉小雨",
+          "normalizedText": "西安堆轉小雨",
+          "confidence": 0.925,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 146000,
+          "endMs": 148000,
+          "startTimeSec": 146.0,
+          "endTimeSec": 148.0,
+          "rawText": "19到23度",
+          "normalizedText": "19到23度",
+          "confidence": 0.925,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 148000,
+          "endMs": 149000,
+          "startTimeSec": 148.0,
+          "endTimeSec": 149.0,
+          "rawText": "拉薩銀轉多雲",
+          "normalizedText": "拉薩銀轉多雲",
+          "confidence": 0.925,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 149000,
+          "endMs": 152000,
+          "startTimeSec": 149.0,
+          "endTimeSec": 152.0,
+          "rawText": "10到21度",
+          "normalizedText": "10到21度",
+          "confidence": 0.925,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 152000,
+          "endMs": 153000,
+          "startTimeSec": 152.0,
+          "endTimeSec": 153.0,
+          "rawText": "成都震雨",
+          "normalizedText": "成都震雨",
+          "confidence": 0.925,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 153000,
+          "endMs": 155000,
+          "startTimeSec": 153.0,
+          "endTimeSec": 155.0,
+          "rawText": "20到26度",
+          "normalizedText": "20到26度",
+          "confidence": 0.925,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 155000,
+          "endMs": 156000,
+          "startTimeSec": 155.0,
+          "endTimeSec": 156.0,
+          "rawText": "重慶小雨",
+          "normalizedText": "重慶小雨",
+          "confidence": 0.925,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 156000,
+          "endMs": 159000,
+          "startTimeSec": 156.0,
+          "endTimeSec": 159.0,
+          "rawText": "20到24度",
+          "normalizedText": "20到24度",
+          "confidence": 0.925,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 159000,
+          "endMs": 160000,
+          "startTimeSec": 159.0,
+          "endTimeSec": 160.0,
+          "rawText": "貴陽銀轉多雲",
+          "normalizedText": "貴陽銀轉多雲",
+          "confidence": 0.925,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 160000,
+          "endMs": 162000,
+          "startTimeSec": 160.0,
+          "endTimeSec": 162.0,
+          "rawText": "21到28度",
+          "normalizedText": "21到28度",
+          "confidence": 0.925,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 162000,
+          "endMs": 163000,
+          "startTimeSec": 162.0,
+          "endTimeSec": 163.0,
+          "rawText": "昆明震雨",
+          "normalizedText": "昆明震雨",
+          "confidence": 0.925,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 163000,
+          "endMs": 166000,
+          "startTimeSec": 163.0,
+          "endTimeSec": 166.0,
+          "rawText": "17到25度",
+          "normalizedText": "17到25度",
+          "confidence": 0.925,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 166000,
+          "endMs": 167000,
+          "startTimeSec": 166.0,
+          "endTimeSec": 167.0,
+          "rawText": "太陽堆轉煙",
+          "normalizedText": "太陽堆轉煙",
+          "confidence": 0.925,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 167000,
+          "endMs": 169000,
+          "startTimeSec": 167.0,
+          "endTimeSec": 169.0,
+          "rawText": "13到26度",
+          "normalizedText": "13到26度",
+          "confidence": 0.925,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 169000,
+          "endMs": 170000,
+          "startTimeSec": 169.0,
+          "endTimeSec": 170.0,
+          "rawText": "時代上多雲",
+          "normalizedText": "時代上多雲",
+          "confidence": 0.905,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 170000,
+          "endMs": 173000,
+          "startTimeSec": 170.0,
+          "endTimeSec": 173.0,
+          "rawText": "18到28度",
+          "normalizedText": "18到28度",
+          "confidence": 0.905,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 173000,
+          "endMs": 174000,
+          "startTimeSec": 173.0,
+          "endTimeSec": 174.0,
+          "rawText": "濟南晴轉多雲",
+          "normalizedText": "濟南晴轉多雲",
+          "confidence": 0.905,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 174000,
+          "endMs": 176000,
+          "startTimeSec": 174.0,
+          "endTimeSec": 176.0,
+          "rawText": "19到30度",
+          "normalizedText": "19到30度",
+          "confidence": 0.905,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 176000,
+          "endMs": 177000,
+          "startTimeSec": 176.0,
+          "endTimeSec": 177.0,
+          "rawText": "鄭州堆轉煙",
+          "normalizedText": "鄭州堆轉煙",
+          "confidence": 0.905,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 177000,
+          "endMs": 179000,
+          "startTimeSec": 177.0,
+          "endTimeSec": 179.0,
+          "rawText": "18到29度",
+          "normalizedText": "18到29度",
+          "confidence": 0.905,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 179000,
+          "endMs": 181000,
+          "startTimeSec": 179.0,
+          "endTimeSec": 181.0,
+          "rawText": "河肥小雨轉煙",
+          "normalizedText": "河肥小雨轉煙",
+          "confidence": 0.905,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 181000,
+          "endMs": 183000,
+          "startTimeSec": 181.0,
+          "endTimeSec": 183.0,
+          "rawText": "19到27度",
+          "normalizedText": "19到27度",
+          "confidence": 0.905,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 183000,
+          "endMs": 184000,
+          "startTimeSec": 183.0,
+          "endTimeSec": 184.0,
+          "rawText": "南京煙",
+          "normalizedText": "南京煙",
+          "confidence": 0.905,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 184000,
+          "endMs": 187000,
+          "startTimeSec": 184.0,
+          "endTimeSec": 187.0,
+          "rawText": "22到29度",
+          "normalizedText": "22到29度",
+          "confidence": 0.905,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 187000,
+          "endMs": 188000,
+          "startTimeSec": 187.0,
+          "endTimeSec": 188.0,
+          "rawText": "上海銀轉多雲",
+          "normalizedText": "上海銀轉多雲",
+          "confidence": 0.905,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 188000,
+          "endMs": 190000,
+          "startTimeSec": 188.0,
+          "endTimeSec": 190.0,
+          "rawText": "23到30度",
+          "normalizedText": "23到30度",
+          "confidence": 0.905,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 190000,
+          "endMs": 191000,
+          "startTimeSec": 190.0,
+          "endTimeSec": 191.0,
+          "rawText": "武漢震雨",
+          "normalizedText": "武漢震雨",
+          "confidence": 0.905,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 191000,
+          "endMs": 192000,
+          "startTimeSec": 191.0,
+          "endTimeSec": 192.0,
+          "rawText": "轉煙",
+          "normalizedText": "轉煙",
+          "confidence": 0.905,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 192000,
+          "endMs": 194000,
+          "startTimeSec": 192.0,
+          "endTimeSec": 194.0,
+          "rawText": "19到25度",
+          "normalizedText": "19到25度",
+          "confidence": 0.905,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 194000,
+          "endMs": 195000,
+          "startTimeSec": 194.0,
+          "endTimeSec": 195.0,
+          "rawText": "長沙小雨",
+          "normalizedText": "長沙小雨",
+          "confidence": 0.905,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 195000,
+          "endMs": 196000,
+          "startTimeSec": 195.0,
+          "endTimeSec": 196.0,
+          "rawText": "轉煙",
+          "normalizedText": "轉煙",
+          "confidence": 0.905,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 196000,
+          "endMs": 198000,
+          "startTimeSec": 196.0,
+          "endTimeSec": 198.0,
+          "rawText": "21到27度",
+          "normalizedText": "21到27度",
+          "confidence": 0.905,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 198000,
+          "endMs": 199000,
+          "startTimeSec": 198.0,
+          "endTimeSec": 199.0,
+          "rawText": "南京多雲",
+          "normalizedText": "南京多雲",
+          "confidence": 0.92,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 199000,
+          "endMs": 202000,
+          "startTimeSec": 199.0,
+          "endTimeSec": 202.0,
+          "rawText": "23到32度",
+          "normalizedText": "23到32度",
+          "confidence": 0.92,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 202000,
+          "endMs": 203000,
+          "startTimeSec": 202.0,
+          "endTimeSec": 203.0,
+          "rawText": "杭州多雲",
+          "normalizedText": "杭州多雲",
+          "confidence": 0.92,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 203000,
+          "endMs": 205000,
+          "startTimeSec": 203.0,
+          "endTimeSec": 205.0,
+          "rawText": "24到32度",
+          "normalizedText": "24到32度",
+          "confidence": 0.92,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 205000,
+          "endMs": 206000,
+          "startTimeSec": 205.0,
+          "endTimeSec": 206.0,
+          "rawText": "福州晴",
+          "normalizedText": "福州晴",
+          "confidence": 0.92,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 206000,
+          "endMs": 209000,
+          "startTimeSec": 206.0,
+          "endTimeSec": 209.0,
+          "rawText": "23到33度",
+          "normalizedText": "23到33度",
+          "confidence": 0.92,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 209000,
+          "endMs": 210000,
+          "startTimeSec": 209.0,
+          "endTimeSec": 210.0,
+          "rawText": "台北晴",
+          "normalizedText": "台北晴",
+          "confidence": 0.92,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 210000,
+          "endMs": 212000,
+          "startTimeSec": 210.0,
+          "endTimeSec": 212.0,
+          "rawText": "24到27度",
+          "normalizedText": "24到27度",
+          "confidence": 0.92,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 212000,
+          "endMs": 213000,
+          "startTimeSec": 212.0,
+          "endTimeSec": 213.0,
+          "rawText": "南京多雲",
+          "normalizedText": "南京多雲",
+          "confidence": 0.92,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 213000,
+          "endMs": 216000,
+          "startTimeSec": 213.0,
+          "endTimeSec": 216.0,
+          "rawText": "24到34度",
+          "normalizedText": "24到34度",
+          "confidence": 0.92,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 216000,
+          "endMs": 217000,
+          "startTimeSec": 216.0,
+          "endTimeSec": 217.0,
+          "rawText": "海口堆轉煙震雨",
+          "normalizedText": "海口堆轉煙震雨",
+          "confidence": 0.92,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 217000,
+          "endMs": 219000,
+          "startTimeSec": 217.0,
+          "endTimeSec": 219.0,
+          "rawText": "26到31度",
+          "normalizedText": "26到31度",
+          "confidence": 0.92,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 219000,
+          "endMs": 220000,
+          "startTimeSec": 219.0,
+          "endTimeSec": 220.0,
+          "rawText": "廣州晴",
+          "normalizedText": "廣州晴",
+          "confidence": 0.92,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 220000,
+          "endMs": 223000,
+          "startTimeSec": 220.0,
+          "endTimeSec": 223.0,
+          "rawText": "25到34度",
+          "normalizedText": "25到34度",
+          "confidence": 0.92,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 223000,
+          "endMs": 224000,
+          "startTimeSec": 223.0,
+          "endTimeSec": 224.0,
+          "rawText": "香港晴",
+          "normalizedText": "香港晴",
+          "confidence": 0.92,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 224000,
+          "endMs": 226000,
+          "startTimeSec": 224.0,
+          "endTimeSec": 226.0,
+          "rawText": "26到30度",
+          "normalizedText": "26到30度",
+          "confidence": 0.92,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 226000,
+          "endMs": 227000,
+          "startTimeSec": 226.0,
+          "endTimeSec": 227.0,
+          "rawText": "北京多雲",
+          "normalizedText": "北京多雲",
+          "confidence": 0.679,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 227000,
+          "endMs": 229000,
+          "startTimeSec": 227.0,
+          "endTimeSec": 229.0,
+          "rawText": "27到30度",
+          "normalizedText": "27到30度",
+          "confidence": 0.679,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 245000,
+          "endMs": 246000,
+          "startTimeSec": 245.0,
+          "endTimeSec": 246.0,
+          "rawText": "北京堆轉小雨",
+          "normalizedText": "北京堆轉小雨",
+          "confidence": 0.679,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 246000,
+          "endMs": 248000,
+          "startTimeSec": 246.0,
+          "endTimeSec": 248.0,
+          "rawText": "20到28度",
+          "normalizedText": "20到28度",
+          "confidence": 0.679,
+          "model": "faster-whisper-small"
+        },
+        {
+          "startMs": 256000,
+          "endMs": 260032,
+          "startTimeSec": 256.0,
+          "endTimeSec": 260.032,
+          "rawText": "中文字幕",
+          "normalizedText": "中文字幕",
+          "confidence": 0.405,
+          "model": "faster-whisper-small"
+        }
+      ]
+    }
+  },
+  "accuracyAudit": {
+    "manualGroundTruthStatus": "NOT_AVAILABLE",
+    "werCerMeasurementStatus": "WER/CER = NOT_MEASURED",
+    "truthAuditMethod": "MODEL_CROSS_DISAGREEMENT_AND_DOMAIN_SPOT_CHECK",
+    "slices": [
+      {
+        "sliceName": "Slice 1: Opening",
+        "timeWindow": "0.0s - 45.0s",
+        "senseVoiceText": "大家来看天气，过去两四盆地北一带雨频来下平稳，但是不少地方累计雨量也是比较大的典型的华西秋雨的特征，预计今后10天这一带仍然会是我国降为集中的区多地累计降雨会超过100毫米部分地区累计降雨量将会达到250到400毫米。其中今天晚上到明天青海西藏一直到湖北湖南这一带将会出现大范围的小到中雨，其中在西藏云南、四川重庆贵州湖南江西还有海南等地将会有一些分散的大到暴雨出现，",
+        "whisperText": "大家要來看天氣過去兩三天四川盆地到湖北一帶雨水頻繁總體來說下得比較平穩但是不少地方累積雨量也是比較大的典型的華西秋雨的特徵預計今後十天這一帶仍然會是我國降雨最為集中的區域多地累積降雨量會超過100毫米部分地區累積降雨量將會達到250到400毫米總體來說將會達到250到400毫米其中今天晚上到明天青海 西藏一直到湖北湖南這一帶將會出現大範圍的小道終雨其中在西藏 雲南 四川重慶 貴州 湖南 江西還有海南等地將會有一些分散的大道暴雨出現需要注意防範頻繁強降雨可能會引發的",
+        "detectedAuditWords": {
+          "四川盆地": {
+            "category": "geography",
+            "senseVoice": false,
+            "fasterWhisper": true,
+            "consensus": false
+          },
+          "重庆": {
+            "category": "geography",
+            "senseVoice": true,
+            "fasterWhisper": false,
+            "consensus": false
+          },
+          "贵州": {
+            "category": "geography",
+            "senseVoice": true,
+            "fasterWhisper": false,
+            "consensus": false
+          },
+          "海南": {
+            "category": "geography",
+            "senseVoice": true,
+            "fasterWhisper": true,
+            "consensus": true
+          },
+          "云南": {
+            "category": "geography",
+            "senseVoice": true,
+            "fasterWhisper": false,
+            "consensus": false
+          },
+          "暴雨": {
+            "category": "phenomenon",
+            "senseVoice": true,
+            "fasterWhisper": true,
+            "consensus": true
+          },
+          "明天": {
+            "category": "authority_and_numeric",
+            "senseVoice": true,
+            "fasterWhisper": true,
+            "consensus": true
+          },
+          "毫米": {
+            "category": "authority_and_numeric",
+            "senseVoice": true,
+            "fasterWhisper": true,
+            "consensus": true
+          }
+        }
+      },
+      {
+        "sliceName": "Slice 2: Middle",
+        "timeWindow": "90.0s - 150.0s",
+        "senseVoiceText": "城市当哈滨长春周的会度今下注意及时描屏维气面来关注城市天气云转到28摄度哈滨晴18到28度长春晴17到28度沈阳晴14到29度云转2到28度呼浩特多云1到26度乌鲁木齐晴1到25度银川晴转多16到2度西宁转多云到20度兰转多1到25度云转小1到2度拉萨转多云10到2度成阵20到26度",
+        "whisperText": "4到10度的明顯降溫我們來看一下城市當中向哈爾濱長春週日的時候紛紛會度過今年下半年以來最涼的一個白天需要注意即時天氣暴暖掃描屏幕上方阿維碼了解更多天氣信息以下我們來關注具體的《城市天氣報》北京堆轉小雨20到28攝氏度哈爾濱晴18到28度長春晴17到28度沈陽晴14到29度天津堆轉煙22到28度霍浩的多雲13到26度烏魯木齊晴13到25度銀川晴轉多雲16到27度西寧銀轉多雲8到20度藍州銀轉多雲14到25度西安堆轉小雨19到23度拉薩銀轉多雲10到21度成都震雨20到26度",
+        "detectedAuditWords": {
+          "白天": {
+            "category": "authority_and_numeric",
+            "senseVoice": false,
+            "fasterWhisper": true,
+            "consensus": false
+          },
+          "度": {
+            "category": "authority_and_numeric",
+            "senseVoice": true,
+            "fasterWhisper": true,
+            "consensus": true
+          }
+        }
+      },
+      {
+        "sliceName": "Slice 3: Ending",
+        "timeWindow": "200.0s - 255.0s",
+        "senseVoiceText": "杭州多云24到32度，福州晴23到33度，台北晴24到27度，南宁多云24到34度，海口多云转雷阵26到31度广晴25到34度香港晴26到30度，澳门晴27到30度北京多云转小雨20到28摄氏度，",
+        "whisperText": "杭州多雲24到32度福州晴23到33度台北晴24到27度南京多雲24到34度海口堆轉煙震雨26到31度廣州晴25到34度香港晴26到30度北京多雲27到30度北京堆轉小雨20到28度",
+        "detectedAuditWords": {
+          "度": {
+            "category": "authority_and_numeric",
+            "senseVoice": true,
+            "fasterWhisper": true,
+            "consensus": true
+          }
+        }
+      }
+    ]
+  },
+  "webvttValidation": {
+    "vttPath": "<private-evidence>/20260917.ai-asr.vtt",
+    "totalCues": 70,
+    "isMonotonic": true,
+    "cuesValid": true,
+    "lastCueEndTimeSec": 260.032,
+    "videoDurationSec": 260.032,
+    "boundsExceeded": false
+  },
+  "architectureDecision": {
+    "pregeneratedVttStatus": "VERIFIED",
+    "onDeviceAsrStatus": "EXPERIMENTAL",
+    "recommendedModelForD2_3b": "SenseVoiceSmall",
+    "rationale": "SenseVoiceSmall achieves ~0.02 RTF (~5s total transcription for 260s video) with native punctuation and high accuracy on weather geography. Pre-generating WebVTT on backend avoids ~250MB model download, high RAM usage and thermal throttle on mobile devices (such as P50 Pro)."
+  },
+  "privacyNote": "Redacted metadata copy, 2026-10-08: private filesystem paths removed; outputs and quality findings unchanged. Original bytes retained privately."
+}

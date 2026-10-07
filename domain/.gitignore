@@ -1,0 +1,3 @@
+/build
+# Owner-only location configuration; restore locally from the coordinate-free template.
+/src/main/kotlin/org/breezyweather/domain/multisource/location/LocationAuthority.kt

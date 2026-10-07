@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="brand_name" translatable="false">简明天气</string>
+    <string name="cctv_evening_weather" translatable="false">央视《晚间天气预报》</string>
+    <string name="tomorrow_rain" translatable="false">明日降雨</string>
+</resources>

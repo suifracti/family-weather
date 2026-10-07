@@ -1,0 +1,5 @@
+# Keep the executable Gradle wrapper usable on macOS even with Windows core.autocrlf.
+/gradlew text eol=lf
+*.sh text eol=lf
+# Exact asset checksums include original license bytes in the companion bundle.
+/app/src/main/assets/sensevoice/licenses/* -text

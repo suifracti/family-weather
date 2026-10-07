@@ -1,0 +1,66 @@
+.gradle
+.kotlin
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### IntelliJ IDEA ###
+.idea/*
+!.idea/icon.png
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/*
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+/currentPosition.properties
+/captures
+/local.properties
+/.asr_scratch/
+
+# Local migration/model dependencies. Restore using docs/migration/required-assets.json.
+/.native-abi-lab/
+/app/libs/*.aar
+/app/src/main/assets/asr/*.zip
+/app/src/main/assets/sensevoice/*.onnx
+/app/src/main/assets/sensevoice/tokens.txt
+/app/src/main/jniLibs/
+/app/src/debug/assets/asr-test/
+/migration-local/
+.env
+.env.*
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.key
+.venv/
+venv/
+__pycache__/
